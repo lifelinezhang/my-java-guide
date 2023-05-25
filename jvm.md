@@ -5,9 +5,14 @@
 
 ### JMM（java内存模型，通常与多线程、并发相关）
 1、核心是原子性、可见性、有序性
-2、volatile、synchronized、final
-3、指令重排：有哪些？底线是什么？怎么保证？
-4、happends-before，内存屏障
+2、指令重排：有哪些？底线是什么？怎么保证？
+3、happends-before
+4、内存屏障分类
+5、volatile：保证可见性和有序性（禁止指令重排）
+6、synchronized：可见性通过清除工作内存实现；原子性
+7、final（this逸出，对象的安全发布，内存语义）
+https://blog.csdn.net/gd_yuzhe/article/details/119031820（JMM综述）
+https://blog.csdn.net/qq_37705280/article/details/117777680（双重检验锁的解析）
 
 
 ### 类加载机制
