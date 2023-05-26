@@ -39,6 +39,7 @@ https://blog.csdn.net/qq_37705280/article/details/117777680（双重检验锁的
 ##### 9、jvm调优经验
 ##### 10、GC有环怎么处理
 ##### 11、分析System.GC方法
+##### 12、GCROOT指的是哪些东西
 
 
 
