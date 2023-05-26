@@ -1,1 +1,9 @@
 /.idea/uiDesigner.xml
+/target/classes/thread/callable/CallableThread.class
+/target/classes/.idea/compiler.xml
+/target/classes/.idea/encodings.xml
+/target/classes/.idea/jarRepositories.xml
+/target/classes/pom.xml
+/target/classes/thread/RunnableThread.class
+/target/classes/thread/callable/ThreadNew.class
+/target/classes/.idea/uiDesigner.xml
