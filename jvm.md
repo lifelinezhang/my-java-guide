@@ -23,6 +23,7 @@ https://blog.csdn.net/weixin_43767015/article/details/105204649（对象的内�
 ##### 6、synchronized：可见性通过清除工作内存实现；原子性
 ##### 7、final（this逸出，对象的安全发布，内存语义）
 https://blog.csdn.net/gd_yuzhe/article/details/119031820（JMM综述）
+https://blog.csdn.net/wyttRain/article/details/114520547 （内存屏障）
 https://blog.csdn.net/qq_37705280/article/details/117777680（双重检验锁的解析）
 
 
