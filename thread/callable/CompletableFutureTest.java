@@ -2,6 +2,7 @@ package thread.callable;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
+import java.util.concurrent.FutureTask;
 
 public class CompletableFutureTest {
 
@@ -12,4 +13,12 @@ public class CompletableFutureTest {
         });
         UserInfo userInfo = completableFuture.get();
     }
+
+    public static void test() {
+        CallableThread callableThread = new CallableThread();
+        FutureTask<Object> futureTask = new FutureTask<>(callableThread);
+        Thread thread = new Thread(futureTask);
+        thread.start();
+    }
+
 }
