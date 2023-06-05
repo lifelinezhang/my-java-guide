@@ -11,6 +11,8 @@
 https://www.toutiao.com/article/6934342274692268556/?group_id=6934342274692268556（对象的内存布局）
 https://blog.csdn.net/weixin_43767015/article/details/105204649（对象的内存布局）
 ##### 10、java程序是如何执行的
+##### 11、说一下堆内存中对象的分配的基本策略
+##### 12、在一个静态方法内调用一个非静态成员为什么是非法的
 
 
 
@@ -25,12 +27,14 @@ https://blog.csdn.net/weixin_43767015/article/details/105204649（对象的内�
 https://blog.csdn.net/gd_yuzhe/article/details/119031820（JMM综述）
 https://blog.csdn.net/wyttRain/article/details/114520547 （内存屏障）
 https://blog.csdn.net/qq_37705280/article/details/117777680（双重检验锁的解析）
-
+##### 8、对象分配内存是否线程安全？
+##### 9、当一个线程进入某个对象的一个synchronized的实例方法后，其它线程是否可进入此对象的其它方法？
 
 ### 类加载机制
 ##### 1、类加载过程
 ##### 2、双亲委派模型
 ##### 3、classload机制详解
+##### 4、类加载为什么要使用双亲委派模式，有没有什么场景是打破了这个模式？
 
 
 ### 垃圾收集
@@ -46,6 +50,7 @@ https://blog.csdn.net/qq_37705280/article/details/117777680（双重检验锁的
 ##### 10、GC有环怎么处理
 ##### 11、分析System.GC方法
 ##### 12、GCROOT指的是哪些东西
+##### 13、被引用的对象就一定能存活吗？
 
 
 
