@@ -1,21 +1,49 @@
 ### 参考大纲
 https://cloud.tencent.com/developer/article/2193997
 ### 基础知识
-1、数据类型及区别
-2、数据库设计三大范式
-3、数据库连接池
-4、mysql数据库服务器性能分析的方法命令有哪些
-5、varchar(50)中50是啥意思
-6、mysq有关权限的几个表
-7、mysql常用备份工具
-8、mysql备份计划如何制定
-9、decimal，禁止使用 float 和 double。
-10、mysql服务器毫无规律的异常重启如何排查问题？
-11、mysql 线上修改表结构有哪些风险?
-12、什么是mysql多实例部署？
-13、MySQL 数据库作发布系统的存储，一天五万以上的增量，预计运维二年怎么优化?
-14、你可以用什么来确保表格里的字段只接受特定范围里的值
-15、如何加强 MySQL 安全，请给出可行的具体措施？
+##### 1、数据类型及区别
+https://blog.csdn.net/Hicodden/article/details/107394343
+https://zhuanlan.zhihu.com/p/352503879
+https://www.cnblogs.com/yoyowin/p/15265418.html
+
+##### 2、数据类型长度取值解析
+https://my.oschina.net/u/2607135/blog/1838589
+
+##### 3、数据库设计三大范式
+https://blog.csdn.net/A_art_xiang/article/details/113880638
+
+##### 4、数据库连接池
+https://blog.csdn.net/CrankZ/article/details/82874158
+
+##### 5、mysql数据库服务器性能分析的方法命令有哪些
+https://zhuanlan.zhihu.com/p/612656741
+
+##### 6、mysq有关权限的几个表
+https://blog.csdn.net/m0_50370837/article/details/124189933
+
+##### 7、备份
+https://zhuanlan.zhihu.com/p/597980094
+https://blog.csdn.net/CN_TangZheng/article/details/103884575
+https://juejin.cn/post/7065566178625880101
+
+##### 8、mysql服务器毫无规律的异常重启如何排查问题？
+https://blog.csdn.net/qq_40907977/article/details/114655938
+https://blog.csdn.net/weixin_43424368/article/details/109294148
+
+##### 9、mysql 线上修改表结构有哪些风险? （元数据锁）
+https://juejin.cn/post/7209319092514209853
+https://www.cnblogs.com/wangtao_20/p/3504395.html
+
+##### 10、什么是mysql多实例部署？
+https://blog.csdn.net/huyinghao03/article/details/116614138
+
+##### 11、MySQL 数据库作发布系统的存储，一天五万以上的增量，预计运维二年怎么优化?
+https://developer.aliyun.com/ask/499541
+
+##### 12、你可以用什么来确保表格里的字段只接受特定范围里的值
+https://blog.csdn.net/horses/article/details/106529341
+
+##### 13、如何加强 MySQL 安全，请给出可行的具体措施？
 
 ### 索引
 1、索引类型
