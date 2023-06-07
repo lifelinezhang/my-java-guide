@@ -15,35 +15,9 @@ https://blog.csdn.net/A_art_xiang/article/details/113880638
 ##### 4、数据库连接池
 https://blog.csdn.net/CrankZ/article/details/82874158
 
-##### 5、mysql数据库服务器性能分析的方法命令有哪些
-https://zhuanlan.zhihu.com/p/612656741
-
-##### 6、mysq有关权限的几个表
-https://blog.csdn.net/m0_50370837/article/details/124189933
-
-##### 7、备份
-https://zhuanlan.zhihu.com/p/597980094
-https://blog.csdn.net/CN_TangZheng/article/details/103884575
-https://juejin.cn/post/7065566178625880101
-
-##### 8、mysql服务器毫无规律的异常重启如何排查问题？
-https://blog.csdn.net/qq_40907977/article/details/114655938
-https://blog.csdn.net/weixin_43424368/article/details/109294148
-
-##### 9、mysql 线上修改表结构有哪些风险? （元数据锁）
-https://juejin.cn/post/7209319092514209853
-https://www.cnblogs.com/wangtao_20/p/3504395.html
-
-##### 10、什么是mysql多实例部署？
-https://blog.csdn.net/huyinghao03/article/details/116614138
-
-##### 11、MySQL 数据库作发布系统的存储，一天五万以上的增量，预计运维二年怎么优化?
-https://developer.aliyun.com/ask/499541
-
-##### 12、你可以用什么来确保表格里的字段只接受特定范围里的值
+##### 5、你可以用什么来确保表格里的字段只接受特定范围里的值
 https://blog.csdn.net/horses/article/details/106529341
 
-##### 13、如何加强 MySQL 安全，请给出可行的具体措施？
 
 ### 索引
 1、索引类型
@@ -243,3 +217,33 @@ https://blog.csdn.net/horses/article/details/106529341
 13、超键、候选键、主键、外键分别是什么？
 
 ### 常见sql手写题
+
+
+
+### 运维相关
+##### 1、mysql数据库服务器性能分析的方法命令有哪些
+https://zhuanlan.zhihu.com/p/612656741
+
+##### 2、mysq有关权限的几个表
+https://blog.csdn.net/m0_50370837/article/details/124189933
+
+##### 3、备份
+https://zhuanlan.zhihu.com/p/597980094
+https://blog.csdn.net/CN_TangZheng/article/details/103884575
+https://juejin.cn/post/7065566178625880101
+
+##### 4、mysql服务器毫无规律的异常重启如何排查问题？
+https://blog.csdn.net/qq_40907977/article/details/114655938
+https://blog.csdn.net/weixin_43424368/article/details/109294148
+
+##### 5、mysql 线上修改表结构有哪些风险? （元数据锁）
+https://juejin.cn/post/7209319092514209853
+https://www.cnblogs.com/wangtao_20/p/3504395.html
+
+##### 6、什么是mysql多实例部署？
+https://blog.csdn.net/huyinghao03/article/details/116614138
+
+##### 7、MySQL 数据库作发布系统的存储，一天五万以上的增量，预计运维二年怎么优化?
+https://developer.aliyun.com/ask/499541
+
+##### 8、如何加强 MySQL 安全，请给出可行的具体措施？
