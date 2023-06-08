@@ -12,3 +12,6 @@ https://www.zhihu.com/question/26943938
 ### 4、IO多路复用
 https://juejin.cn/post/6882984260672847879
 https://juejin.cn/post/6924528182313893896
+
+### 5、netty是什么
+https://www.zhihu.com/question/24322387
