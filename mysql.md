@@ -55,14 +55,26 @@ https://cloud.tencent.com/developer/article/1469056
 ##### 17、为什么官方建议使用自增长主键作为索引？（说一下自增主键和字符串类型主键的区别和影响）
 https://blog.csdn.net/u014571143/article/details/129273389
 
+##### 18、优化器
+##### 19、一个表有多个索引的时候，能否手动选择使用哪个索引？（force index）
+##### 20、能否查看到索引选择的逻辑？是否使用过optimizer_trace？
+##### 21、多个索引优先级是如何匹配的？
+https://blog.csdn.net/adminpd/article/details/124651881
+https://www.cnblogs.com/michael9/p/12929775.html
+https://zhuanlan.zhihu.com/p/192707721
+https://blog.csdn.net/lilizhou2008/article/details/107554975
+http://blog.itpub.net/28218939/viewspace-2658978/
 
-18、一个表有多个索引的时候，能否手动选择使用哪个索引？
-19、能否查看到索引选择的逻辑？是否使用过optimizer_trace？
-20、多个索引优先级是如何匹配的？
+
+
 21、使用Order By时能否通过索引排序？
 22、通过索引排序内部流程是什么？
 23、什么是双路排序和单路排序
 24、group by 分组和order by在索引使用上有什么区别？
+35、通过索引排序的内部流程是什么
+36、group by和order by在索引使用上有什么区别
+
+
 
 27、主键和候选键有什么区别?
 
@@ -72,8 +84,6 @@ https://blog.csdn.net/u014571143/article/details/129273389
 32、一个B+树大概能存放多少条索引记录
 33、唯一索引
 34、什么时候适合创建索引、什么时候不适合创建索引
-35、通过索引排序的内部流程是什么
-36、group by和order by在索引使用上有什么区别
 37、索引是如何实现的
 
 
