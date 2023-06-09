@@ -39,14 +39,23 @@ https://blog.csdn.net/wdjnb/article/details/122880079
 ##### 12、索引下推
 https://juejin.cn/post/7005794550862053412
 
+##### 13、索引失效
+https://blog.csdn.net/feiying0canglang/article/details/121239921
+
+##### 14、为什么LIKE以%开头索引会失效？一定会失效吗？
+https://blog.csdn.net/xue_mind/article/details/117698061
+https://juejin.cn/post/7130083417223331848
+
+##### 15、如果表中有字段为null，又被经常查询该不该给这个字段创建索引？
+##### 16、有字段为null索引是否会失效？
+https://blog.csdn.net/qq_41893274/article/details/112297443
+https://blog.csdn.net/cxu123321/article/details/107861422
+https://cloud.tencent.com/developer/article/1469056
+
+##### 17、为什么官方建议使用自增长主键作为索引？（说一下自增主键和字符串类型主键的区别和影响）
+https://blog.csdn.net/u014571143/article/details/129273389
 
 
-
-14、索引失效
-
-
-16、为什么官方建议使用自增长主键作为索引？（说一下自增主键和字符串类型主键的区别和影响）
-17、为什么LIKE以%开头索引会失效？
 18、一个表有多个索引的时候，能否手动选择使用哪个索引？
 19、能否查看到索引选择的逻辑？是否使用过optimizer_trace？
 20、多个索引优先级是如何匹配的？
@@ -54,8 +63,7 @@ https://juejin.cn/post/7005794550862053412
 22、通过索引排序内部流程是什么？
 23、什么是双路排序和单路排序
 24、group by 分组和order by在索引使用上有什么区别？
-25、如果表中有字段为null，又被经常查询该不该给这个字段创建索引？
-26、有字段为null索引是否会失效？
+
 27、主键和候选键有什么区别?
 
 29、简单描述MySQL中，索引,主键,唯一索引, 联合索引的区别，对数据库的性能有什么影响(从读写两方面什么情况下设置了索|但无法使用
