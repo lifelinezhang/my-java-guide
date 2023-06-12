@@ -29,6 +29,7 @@ https://blog.csdn.net/horses/article/details/106529341
 ##### 8、最左匹配
 ##### 9、覆盖索引、回表
 https://developer.aliyun.com/article/831250
+https://www.cnblogs.com/gotodsp/p/12559159.html
 
 ##### 10、创建索引的原则
 https://blog.csdn.net/Elliot_Elliot/article/details/115743125
@@ -65,26 +66,27 @@ https://zhuanlan.zhihu.com/p/192707721
 https://blog.csdn.net/lilizhou2008/article/details/107554975
 http://blog.itpub.net/28218939/viewspace-2658978/
 
+##### 22、使用Order By时能否通过索引排序？
+https://cloud.tencent.com/developer/article/1181272
 
+##### 23、通过索引排序内部流程是什么？
+##### 24、什么是双路排序和单路排序
+https://blog.csdn.net/xianyun1992/article/details/107651184
 
-21、使用Order By时能否通过索引排序？
-22、通过索引排序内部流程是什么？
-23、什么是双路排序和单路排序
-24、group by 分组和order by在索引使用上有什么区别？
-35、通过索引排序的内部流程是什么
-36、group by和order by在索引使用上有什么区别
+##### 25、group by 分组和order by在索引使用上有什么区别？
+https://www.jianshu.com/p/b2963c29af0e
 
+##### 26、主键和候选键有什么区别?
+https://www.cnblogs.com/lab-zj/p/12167280.html
 
+##### 27、简单描述MySQL中，索引,主键,唯一索引, 联合索引的区别，对数据库的性能有什么影响(从读写两方面什么情况下设置了索|但无法使用
+https://blog.csdn.net/congbaobei/article/details/79624512
 
-27、主键和候选键有什么区别?
+##### 28、一个B+树大概能存放多少条索引记录
+https://juejin.cn/post/6973647815473889311
 
-29、简单描述MySQL中，索引,主键,唯一索引, 联合索引的区别，对数据库的性能有什么影响(从读写两方面什么情况下设置了索|但无法使用
-30、如果没有创建索引，那么还会创建B+树吗
-
-32、一个B+树大概能存放多少条索引记录
-33、唯一索引
-34、什么时候适合创建索引、什么时候不适合创建索引
-37、索引是如何实现的
+##### 29、什么时候适合创建索引、什么时候不适合创建索引
+https://zhuanlan.zhihu.com/p/616767033
 
 
 ### 数据结构
