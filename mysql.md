@@ -1,5 +1,6 @@
 ### 参考大纲
 https://cloud.tencent.com/developer/article/2193997
+https://blog.csdn.net/tanliqing2010/article/details/81509539
 
 ### 基础知识
 ##### 1、数据类型及区别
@@ -129,18 +130,18 @@ https://blog.csdn.net/lvqinglou/article/details/12022308
 ##### 9、缓存与缓冲区
 https://blog.csdn.net/Hpsyche/article/details/104460944
 
+##### 10、Innodb有哪些线程
+https://juejin.cn/post/6886263075169501192
 
-11、Innodb有哪些线程
-14、innodb的事务实现原理
-16、myism的应用场景
-17、myism存储引擎特性有哪些
-19、Mysql内部有哪些核心模块组成，作用是什么？
-20、能否单独为一张表设置存储引擎？
-21、阿里、京东等大厂都有自研的存储引擎，如何开发一套自己的？
-22、MySQL 存储引擎架构了解吗？
-23、存储时期
-24、Myql 中的事务回滚机制概述
+##### 11、innodb的事务实现原理
+https://juejin.cn/post/7012937835967692808
+https://blog.csdn.net/argleary/article/details/104189850
 
+##### 12、Mysql内部有哪些核心模块组成，作用是什么？
+https://blog.csdn.net/qq_45938466/article/details/107941557
+
+##### 13、能否单独为一张表设置存储引擎？
+https://blog.csdn.net/sem00000/article/details/106725433
 
 ### 分库分表
 1、类型
@@ -165,6 +166,7 @@ https://blog.csdn.net/Hpsyche/article/details/104460944
 9、什么是2pc 3pc
 10、缓存可以提高事务隔离级别的性能吗
 11、原子性、持久性是如何实现的
+24、Myql 中的事务回滚机制概述
 
 ### 锁
 1、有哪些锁以及锁的作用
