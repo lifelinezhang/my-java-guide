@@ -100,27 +100,40 @@ https://blog.csdn.net/chen_zhang_yu/article/details/52415077
 
 
 ### 存储
-1、常见的存储引擎及如何选择
-1、常见的存储引擎及如何选择
-2、MyISM和Innodb
-3、Innodb的特性
-4、Innodb为什么使用自增主键
+##### 1、常见的存储引擎及如何选择
+https://zhuanlan.zhihu.com/p/394998355
 
-5、Innodb的页、区、段
-6、页由哪些数据组成
-7、页插入记录的过程
-8、Buffer Pool
-9、Change Buffer
+##### 2、MyISM和Innodb
+https://zhuanlan.zhihu.com/p/75165526
+https://blog.csdn.net/catch_exception/article/details/130035662
 
-10、Innodb的架构设计
+##### 3、Innodb的特性
+https://www.cnblogs.com/zhs0/p/10528520.html
+
+##### 4、Innodb为什么使用自增主键
+https://blog.csdn.net/m0_45406092/article/details/111940017
+
+##### 5、Innodb的架构设计
+##### 6、Innodb的页、区、段
+##### 7、页由哪些数据组成
+##### 8、页插入记录的过程
+https://juejin.cn/post/7007421609900245000
+https://developer.aliyun.com/article/743573
+https://developer.aliyun.com/article/743582
+https://developer.aliyun.com/article/743590
+https://blog.csdn.net/gb4215287/article/details/113185778
+https://developer.aliyun.com/article/743882
+https://juejin.cn/post/6974225353371975693
+https://blog.csdn.net/lvqinglou/article/details/12022308
+
+##### 9、缓存与缓冲区
+https://blog.csdn.net/Hpsyche/article/details/104460944
+
+
 11、Innodb有哪些线程
-12、doublewrite
-13、自适应哈希
 14、innodb的事务实现原理
-15、innodb引擎的四大特性
 16、myism的应用场景
 17、myism存储引擎特性有哪些
-18、缓存查询
 19、Mysql内部有哪些核心模块组成，作用是什么？
 20、能否单独为一张表设置存储引擎？
 21、阿里、京东等大厂都有自研的存储引擎，如何开发一套自己的？
