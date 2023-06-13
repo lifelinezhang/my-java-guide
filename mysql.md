@@ -154,9 +154,17 @@ https://blog.csdn.net/sem00000/article/details/106725433
 
 
 
-### 事务
-1、什么是数据库事务
-2、四大特性及如何实现
+### 事务与锁
+##### 1、什么是数据库事务
+https://blog.csdn.net/x_i_xw/article/details/81408656
+https://www.cnblogs.com/wajika/p/6681067.html
+##### 2、四大特性及如何保证
+https://juejin.cn/post/7012937835967692808
+
+
+
+
+
 3、事务的并发问题，mysql是如何避免的
 4、隔离级别及如何实现的、如何选择隔离级别
 5、完整性约束
