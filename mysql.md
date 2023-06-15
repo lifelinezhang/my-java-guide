@@ -1,6 +1,7 @@
 ### 参考大纲
 https://cloud.tencent.com/developer/article/2193997
 https://blog.csdn.net/tanliqing2010/article/details/81509539
+https://www.processon.com/view/link/6291db2f1efad45e083ae787
 
 ### 基础知识
 ##### 1、数据类型及区别
@@ -158,22 +159,28 @@ https://blog.csdn.net/sem00000/article/details/106725433
 ##### 1、什么是数据库事务
 https://blog.csdn.net/x_i_xw/article/details/81408656
 https://www.cnblogs.com/wajika/p/6681067.html
+
+
 ##### 2、四大特性及如何保证
+##### 3、原子性、持久性是如何实现的
 https://juejin.cn/post/7012937835967692808
+https://blog.csdn.net/weixin_43318367/article/details/113479279
+
+##### 4、事务的并发问题，mysql是如何避免的
+https://blog.csdn.net/wpc2018/article/details/123473602
+
+##### 5、事务隔离级别及实现方式（隔离性）
+https://blog.csdn.net/huyuyang6688/article/details/123028254
+https://juejin.cn/post/7171412395955322888
+https://juejin.cn/post/7153869469394305061
 
 
-
-
-
-3、事务的并发问题，mysql是如何避免的
-4、隔离级别及如何实现的、如何选择隔离级别
 5、完整性约束
 6、XA协议
 7、xa事务
 8、xa事务与普通事务区别是什么
 9、什么是2pc 3pc
 10、缓存可以提高事务隔离级别的性能吗
-11、原子性、持久性是如何实现的
 24、Myql 中的事务回滚机制概述
 
 ### 锁
