@@ -1,9 +1,9 @@
-### 参考大纲
+### 一、参考大纲
 https://cloud.tencent.com/developer/article/2193997
 https://blog.csdn.net/tanliqing2010/article/details/81509539
 https://www.processon.com/view/link/6291db2f1efad45e083ae787
 
-### 基础知识
+### 二、基础知识
 ##### 1、数据类型及区别
 https://blog.csdn.net/Hicodden/article/details/107394343
 https://zhuanlan.zhihu.com/p/352503879
@@ -22,7 +22,60 @@ https://blog.csdn.net/CrankZ/article/details/82874158
 https://blog.csdn.net/horses/article/details/106529341
 
 
-### 索引
+### 三、数据结构
+##### 1、Hash和B+树的区别
+##### 2、B+树和二叉查找树的区别
+##### 3、什么是2-3树 2-3-4树
+##### 4、平衡二叉树、红黑树、B树、B+树的区别
+https://blog.csdn.net/qq_38163244/article/details/109704712
+https://www.cnblogs.com/henuliulei/p/15114440.html
+https://blog.csdn.net/chen_zhang_yu/article/details/52415077
+
+### 四、存储引擎
+##### 1、常见的存储引擎及如何选择
+https://zhuanlan.zhihu.com/p/394998355
+
+##### 2、MyISM和Innodb
+https://zhuanlan.zhihu.com/p/75165526
+https://blog.csdn.net/catch_exception/article/details/130035662
+
+##### 3、Innodb的特性
+https://www.cnblogs.com/zhs0/p/10528520.html
+
+##### 4、Innodb为什么使用自增主键
+https://blog.csdn.net/m0_45406092/article/details/111940017
+
+##### 5、Innodb的架构设计
+##### 6、Innodb的页、区、段
+##### 7、页由哪些数据组成
+##### 8、页插入记录的过程
+https://juejin.cn/post/7007421609900245000
+https://developer.aliyun.com/article/743573
+https://developer.aliyun.com/article/743582
+https://developer.aliyun.com/article/743590
+https://blog.csdn.net/gb4215287/article/details/113185778
+https://developer.aliyun.com/article/743882
+https://juejin.cn/post/6974225353371975693
+https://blog.csdn.net/lvqinglou/article/details/12022308
+
+##### 9、缓存与缓冲区
+https://blog.csdn.net/Hpsyche/article/details/104460944
+
+##### 10、Innodb有哪些线程
+https://juejin.cn/post/6886263075169501192
+
+##### 11、innodb的事务实现原理
+https://juejin.cn/post/7012937835967692808
+https://blog.csdn.net/argleary/article/details/104189850
+
+##### 12、Mysql内部有哪些核心模块组成，作用是什么？
+https://blog.csdn.net/qq_45938466/article/details/107941557
+
+##### 13、能否单独为一张表设置存储引擎？
+https://blog.csdn.net/sem00000/article/details/106725433
+
+
+### 五、索引
 ##### 1、索引类型
 ##### 2、索引优缺点
 ##### 3、索引的数据结构
@@ -91,75 +144,11 @@ https://juejin.cn/post/6973647815473889311
 https://zhuanlan.zhihu.com/p/616767033
 
 
-### 数据结构
-##### 1、Hash和B+树的区别
-##### 2、B+树和二叉查找树的区别
-##### 3、什么是2-3树 2-3-4树
-##### 4、平衡二叉树、红黑树、B树、B+树的区别
-https://blog.csdn.net/qq_38163244/article/details/109704712
-https://www.cnblogs.com/henuliulei/p/15114440.html
-https://blog.csdn.net/chen_zhang_yu/article/details/52415077
 
-
-### 存储
-##### 1、常见的存储引擎及如何选择
-https://zhuanlan.zhihu.com/p/394998355
-
-##### 2、MyISM和Innodb
-https://zhuanlan.zhihu.com/p/75165526
-https://blog.csdn.net/catch_exception/article/details/130035662
-
-##### 3、Innodb的特性
-https://www.cnblogs.com/zhs0/p/10528520.html
-
-##### 4、Innodb为什么使用自增主键
-https://blog.csdn.net/m0_45406092/article/details/111940017
-
-##### 5、Innodb的架构设计
-##### 6、Innodb的页、区、段
-##### 7、页由哪些数据组成
-##### 8、页插入记录的过程
-https://juejin.cn/post/7007421609900245000
-https://developer.aliyun.com/article/743573
-https://developer.aliyun.com/article/743582
-https://developer.aliyun.com/article/743590
-https://blog.csdn.net/gb4215287/article/details/113185778
-https://developer.aliyun.com/article/743882
-https://juejin.cn/post/6974225353371975693
-https://blog.csdn.net/lvqinglou/article/details/12022308
-
-##### 9、缓存与缓冲区
-https://blog.csdn.net/Hpsyche/article/details/104460944
-
-##### 10、Innodb有哪些线程
-https://juejin.cn/post/6886263075169501192
-
-##### 11、innodb的事务实现原理
-https://juejin.cn/post/7012937835967692808
-https://blog.csdn.net/argleary/article/details/104189850
-
-##### 12、Mysql内部有哪些核心模块组成，作用是什么？
-https://blog.csdn.net/qq_45938466/article/details/107941557
-
-##### 13、能否单独为一张表设置存储引擎？
-https://blog.csdn.net/sem00000/article/details/106725433
-
-### 分库分表
-1、类型
-2、可能遇到的问题
-3、中间件
-4、实现分库分表工具的实现思路
-
-### 读写分离
-1、说一下读写分离常见方案？
-
-
-
-### 事务与锁
+### 六、事务与锁
 ##### 1、什么是数据库事务
 https://blog.csdn.net/x_i_xw/article/details/81408656
 https://www.cnblogs.com/wajika/p/6681067.html
-
 
 ##### 2、四大特性及如何保证
 ##### 3、原子性、持久性是如何实现的
@@ -170,37 +159,57 @@ https://blog.csdn.net/weixin_43318367/article/details/113479279
 https://blog.csdn.net/wpc2018/article/details/123473602
 
 ##### 5、事务隔离级别及实现方式（隔离性）
+##### 6、有哪些锁以及锁的作用
+##### 7、MVCC的实现原理
 https://blog.csdn.net/huyuyang6688/article/details/123028254
 https://juejin.cn/post/7171412395955322888
 https://juejin.cn/post/7153869469394305061
 
+##### 8、隔离级别和锁的关系
+https://www.cnblogs.com/aspirant/p/9177978.html
 
-5、完整性约束
-6、XA协议
-7、xa事务
-8、xa事务与普通事务区别是什么
-9、什么是2pc 3pc
-10、缓存可以提高事务隔离级别的性能吗
-24、Myql 中的事务回滚机制概述
+##### 9、Innodb的加锁规则
+https://www.cnblogs.com/flowers-bloom/p/mysql45-lock-rule.html
+https://juejin.cn/post/7011160604329132046
 
-### 锁
-1、有哪些锁以及锁的作用
-2、隔离级别和锁的关系
-3、Innodb的锁算法
-4、快照度和当前读
-5、MVCC及其实现
-6、死锁的原因和处理办法
-7、锁的优化策略
-8、乐观锁与悲观锁
-9、select for update会产生哪些操作
-10、什么是一致性非锁定读和锁定读？
-11、表级锁和行级锁有什么区别？
-12、行级锁是如何实现的
-13、当前读和快照读分别是什么？
-14、什么是共享锁
-15、什么事排他锁
-16、什么事意向锁
+##### 10、死锁的原因和处理办法
+https://blog.csdn.net/AlbenXie/article/details/118613349
 
+##### 11、锁的优化策略
+https://developer.aliyun.com/article/706135
+
+##### 12、select for update会产生哪些操作
+https://zhuanlan.zhihu.com/p/626926704
+
+##### 13、什么是一致性非锁定读和锁定读？
+##### 14、当前读和快照读分别是什么？
+https://juejin.cn/post/7009083663090450446
+https://juejin.cn/post/7108567890323832869
+
+##### 15、表级锁和行级锁有什么区别？
+https://www.cnblogs.com/guanghe/p/9217421.html
+
+##### 16、行级锁是如何实现的
+https://blog.csdn.net/alexdamiao/article/details/52049993
+
+##### 17、分布式事务
+##### 19、什么是2pc 3pc
+https://maimai.cn/article/detail?fid=1122653559&efid=jewbG8cL4Wikr2CJ3r_fAw
+
+##### 10、XA协议
+##### 20、xa事务
+##### 21、xa事务与普通事务区别是什么
+https://zhuanlan.zhihu.com/p/372300181
+
+
+### 分库分表
+1、类型
+2、可能遇到的问题
+3、中间件
+4、实现分库分表工具的实现思路
+
+### 读写分离
+1、说一下读写分离常见方案？
 
 ### 主从
 1、什么是主从复制
