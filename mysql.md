@@ -201,6 +201,20 @@ https://maimai.cn/article/detail?fid=1122653559&efid=jewbG8cL4Wikr2CJ3r_fAw
 ##### 21、xa事务与普通事务区别是什么
 https://zhuanlan.zhihu.com/p/372300181
 
+### 日志
+1、有哪些常见日志
+2、bin log作用是什么？
+3、redo log作用是什么？
+4、undo log作用是什么？
+5、Mysql日志是否实时写入磁盘？
+6、bin log刷盘机制是如何实现的？
+7、redo log刷盘机制是如何实现的？
+8、undo log刷盘机制是如何实现的？
+9、MySQL的binlog有有几种录入格式？分别有什么区别？
+10、Mysql集群同步时为什么使用binlog？优缺点是什么？
+11、innodb中有多少中日志
+12、profile的意义以及使用场景
+
 
 ### 分库分表
 1、类型
@@ -230,19 +244,7 @@ https://zhuanlan.zhihu.com/p/372300181
 16、生产一主多从从库宕机，如何手工恢复？
 
 
-### 日志
-1、有哪些常见日志
-2、bin log作用是什么？
-3、redo log作用是什么？
-4、undo log作用是什么？
-5、Mysql日志是否实时写入磁盘？
-6、bin log刷盘机制是如何实现的？
-7、redo log刷盘机制是如何实现的？
-8、undo log刷盘机制是如何实现的？
-9、MySQL的binlog有有几种录入格式？分别有什么区别？
-10、Mysql集群同步时为什么使用binlog？优缺点是什么？
-11、innodb中有多少中日志
-12、profile的意义以及使用场景
+
 
 ### 视图
 1、视图
