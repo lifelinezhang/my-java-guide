@@ -254,16 +254,24 @@ https://zhuanlan.zhihu.com/p/372300181
 
 ### SQL
 1、sql关键字的执行顺序
+https://zhuanlan.zhihu.com/p/77847158
+
 2、in和exists的区别
 3、union和union all的区别
 4、drop、delete和truncate的区别
 
 5、一条sql是如何执行的
-6、如何判断sql走了索引
-7、索引失效
+https://cloud.tencent.com/developer/article/1972355
+
 8、where子句如何优化
+https://blog.csdn.net/Soinice/article/details/84502292
+
 9、超大分页或者深度分页如何处理
+https://zhuanlan.zhihu.com/p/279863859
+https://blog.csdn.net/thetimelyrain/article/details/110954818
+
 10、大表查询如何优化
+
 11、注入漏洞
 12、sql的生命周期
 13、慢sql监控及查询、优化
