@@ -126,6 +126,7 @@ https://cloud.tencent.com/developer/article/1181272
 
 ##### 23、通过索引排序内部流程是什么？
 ##### 24、什么是双路排序和单路排序
+##### sort_buffer_size 参数作用？如何在线修改生效？
 https://blog.csdn.net/xianyun1992/article/details/107651184
 
 ##### 25、group by 分组和order by在索引使用上有什么区别？
@@ -273,10 +274,11 @@ https://blog.csdn.net/thetimelyrain/article/details/110954818
 10、大表查询如何优化
 
 11、注入漏洞
-12、sql的生命周期
 13、慢sql监控及查询、优化
-14、MySQL Sleep 线程过多如何解决？
-15、sort_buffer_size 参数作用？如何在线修改生效？
+https://www.zhihu.com/question/440119508
+
+
+
 16、Binlog 工作模式有哪些？各什么特点，企业如何选择？
 17、误操作执行了一个 drop 库 SQL 语句，如何完整恢复？
 18、如何在线正确清理 MySQL binlog？
@@ -337,3 +339,6 @@ https://blog.csdn.net/huyinghao03/article/details/116614138
 https://developer.aliyun.com/ask/499541
 
 ##### 8、如何加强 MySQL 安全，请给出可行的具体措施？`
+
+##### 9、MySQL Sleep 线程过多如何解决？
+https://blog.csdn.net/ericwuhk/article/details/118406402
