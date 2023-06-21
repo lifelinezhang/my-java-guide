@@ -1,6 +1,13 @@
+### 官方文档
+https://www.elastic.co/guide/cn/elasticsearch/guide/current/foreword_id.html
+
 ### 基础入门练习题
 https://blog.csdn.net/UbuntuTouch/article/details/122753295
 https://elasticstack.blog.csdn.net/article/details/122755184
+
+### 聚合查询
+https://blog.csdn.net/Yal_insist/article/details/122245421
+
 
 
 ### java操作elasticsearch

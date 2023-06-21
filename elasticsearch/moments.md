@@ -68,13 +68,13 @@ GET crm_moments/_search
         },
         {
           "match": {
-            "content": "雪铁龙 奔驰"
+            "content": "雪铁龙 奔驰 12.50"
           }
         }
       ]
     }
   },
-  "size": 2,
+  "size": 20,
   "from": 0,
   "sort": [
     {
@@ -90,7 +90,7 @@ GET crm_moments/_search
   ],
   "search_after": [
     1687132800000,
-    3
+    100
   ],
   "highlight": {
     "boundary_scanner_locale": "zh_CN",
@@ -106,19 +106,6 @@ GET crm_moments/_search
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ```
