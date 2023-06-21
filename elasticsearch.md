@@ -8,6 +8,8 @@ https://elasticstack.blog.csdn.net/article/details/122755184
 ### 聚合查询
 https://blog.csdn.net/Yal_insist/article/details/122245421
 
+### 坐标
+https://juejin.cn/post/6953547277172473892
 
 
 ### java操作elasticsearch
