@@ -1,26 +1,71 @@
-nosql四大类
+### 一、redis基础知识
+##### 1、redis为什么这么快
+https://blog.csdn.net/CSDN2497242041/article/details/120755188
+https://mp.weixin.qq.com/s?__biz=MzkzMDI1NjcyOQ==&mid=2247487752&idx=1&sn=72a1725e1c86bb5e883dd8444e5bd6c4&source=41#wechat_redirect
 
-1、redis为什么这么快
-2、分布式缓存常见的技术选型方案
-3、redis和memcached的区别和共同点
+##### 2、常见的缓存读写策略
+https://juejin.cn/post/7093452218535247886
+
+### 二、数据类型与数据结构
+##### 1、redis支持的基本数据类型、每个类型的的数据结构实现
+##### 2、什么是redisObject
+##### 3、String的底层实现是什么
+##### 4、什么是redis的intset
+##### 5、有序集合zset的底层实现
+##### 6、什么是压缩列表
+https://zhuanlan.zhihu.com/p/531323771
+
+##### 7、zset为何不使用红黑树等平衡树
+https://www.cnblogs.com/jajian/p/16801106.html
+
+
+##### 8、redis支持的特殊数据类型
+https://juejin.cn/post/7031503546767900686
+
+##### 9、一个redis实例最多能存放多少的keys，list、set、sortedset他们最多能存多少元素
+https://blog.csdn.net/mrlin6688/article/details/105954089
+
+### 三、不同数据类型的应用场景
+##### 1、、String还是Hash存储对象数据更好呢？
+https://juejin.cn/post/6964186850613428231
+##### 2、购物车信息用String还是hash存储更好呢？
+https://blog.csdn.net/yaoyaochengxian/article/details/120234850
+##### 3、使用redis实现一个排行榜怎么做？
+https://www.runoob.com/redis/redis-sorted-sets.html
+##### 4、set的应用场景是什么？
+https://cloud.tencent.com/developer/article/1196115
+##### 5、使用set实现抽奖系统怎么做？
+https://blog.csdn.net/mutf7/article/details/119841617
+##### 6、使用bitmap统计活跃用户怎么做？
+https://juejin.cn/post/6963821033766240264
+##### 7、使用HyperLogLog统计页面UV怎么做？
+https://blog.csdn.net/lilizhou2008/article/details/109610186
+
+
+### 二、应用维度
+##### 2.1 缓存使用
+##### 2.2 集群运用
+##### 2.3 数据结构的巧妙使用
+
+
+
+### 三、系统维度
+##### 3.1 高性能：线程模型、网络io模型、数据结构、持久化机制
+##### 3.2 高可用：主从复制、哨兵集群
+##### 3.3 高扩展：cluster分片集群
+
+
+
+
+
 redis底层使用的什么协议
-4、为什么要用缓存
-5、常见的缓存读写策略
+
 6、redis除了做缓存，还能做什么
 7、redis做分布式锁，有什么缺陷、Redlock算法
 8、redis可以做消息队列吗
-9、redis数据结构（5基础、3特殊）
-一个redis实例最多能存放多少的keys，list、set、sortedset他们最多能存多少元素
 
-10、redis中string的应用场景、字符串类型的最大存储容量
-11、String还是Hash存储对象数据更好呢？
-12、String的底层实现是什么
-13、购物车信息用String还是hash存储更好呢？
-14、使用redis实现一个排行榜怎么做？
-15、set的应用场景是什么？
-16、使用set实现抽奖系统怎么做？
-17、使用bitmap统计活跃用户怎么做？
-18、使用HyperLogLog统计页面UV怎么做？
+
+
 19、redis的持久化机制
 20、redis单线程模型及为什么（IO多路复用）
 虚拟内存机制
@@ -54,12 +99,7 @@ redis回收使用的是什么算法
 redis存储中文的方式
 
 
-有序集合zset的底层实现
-zset为何不使用红黑树等平衡树
-什么是redis的intset
-什么是压缩列表
-什么是redisObject
-五种类型分别对于哪种实现
+
 
 什么是redis的pipeline
 原生批命令（mset、mget）和pipeline的区别
