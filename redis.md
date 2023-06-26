@@ -1,3 +1,5 @@
+nosql四大类
+
 1、redis为什么这么快
 2、分布式缓存常见的技术选型方案
 3、redis和memcached的区别和共同点
@@ -69,6 +71,7 @@ redis是单线程的、如何提高多核cpu的利用率
 你知道哪些redis的分区实现方案
 redis分区有什么缺点
 修改配置不重启 Redis 会实时生效吗
+redis发布订阅
 
 
 ### redis事务
