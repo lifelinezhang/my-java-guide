@@ -1,3 +1,16 @@
+### 二、应用维度
+##### 2.1 缓存使用
+##### 2.2 集群运用
+##### 2.3 数据结构的巧妙使用
+
+
+
+### 三、系统维度
+##### 3.1 高性能：线程模型、网络io模型、数据结构、持久化机制
+##### 3.2 高可用：主从复制、哨兵集群
+##### 3.3 高扩展：cluster分片集群
+
+
 ### 一、redis基础知识
 ##### 1、redis为什么这么快
 https://blog.csdn.net/CSDN2497242041/article/details/120755188
@@ -24,10 +37,18 @@ https://blog.csdn.net/star1210644725/article/details/118078906
 ##### 10、redis和memcached多线程的区别
 https://blog.csdn.net/zhizhengguan/article/details/120627481
 
-
-
 ##### 11、虚拟内存机制
 https://developer.aliyun.com/article/807905
+
+##### 12、什么是redis的pipeline
+##### 13、原生批命令（mset、mget）和pipeline的区别
+https://juejin.cn/post/6904433426560974856
+
+##### 14、redis存储中文的方式
+https://blog.csdn.net/Crezfikbd/article/details/120390038
+
+##### 15、redis是单线程的、如何提高多核cpu的利用率
+https://developer.aliyun.com/ask/327646
 
 
 ### 二、数据类型与数据结构
@@ -42,12 +63,22 @@ https://zhuanlan.zhihu.com/p/531323771
 ##### 7、zset为何不使用红黑树等平衡树
 https://www.cnblogs.com/jajian/p/16801106.html
 
+##### 8、redis实现的链表有哪些特性
+https://juejin.cn/post/6994089148801875982
 
-##### 8、redis支持的特殊数据类型
+##### 9、 reids是如何实现字典的
+https://juejin.cn/post/7005173489384718350
+
+##### 10、redishash冲突了怎么办
+##### 11、什么是渐进式rehash
+https://blog.csdn.net/See_Csdn_/article/details/112429729
+
+##### 12、redis支持的特殊数据类型
 https://juejin.cn/post/7031503546767900686
 
-##### 9、一个redis实例最多能存放多少的keys，list、set、sortedset他们最多能存多少元素
+##### 13、一个redis实例最多能存放多少的keys，list、set、sortedset他们最多能存多少元素
 https://blog.csdn.net/mrlin6688/article/details/105954089
+
 
 
 ### 三、不同数据类型的应用场景
@@ -78,55 +109,36 @@ https://juejin.cn/post/6927204732704391175
 
 
 ### 缓存
+##### 1、热点数据和冷数据
+https://blog.csdn.net/siyuanwai/article/details/119998499
+
+##### 2、redis给缓存数据设置过期时间有啥用
+https://blog.csdn.net/qq_43792852/article/details/116434482
+
+##### 3、redis是如何判断数据是否过期的呢？（数据过期策略）
+##### 4、持久化文件对过期策略的处理
+##### 5、过期数据的删除策略
+https://zhuanlan.zhihu.com/p/86531660
+
+##### 6、redis的内存淘汰机制
+https://juejin.cn/post/7027067417469648926
+
+##### 7、redis回收进程如何工作的？
+##### 8、redis回收使用的是什么算法
+https://blog.csdn.net/fengfujie/article/details/103291333
+
+##### 9、lru、lfu算法
+https://blog.csdn.net/qq_40276626/article/details/120613552
+
+##### 10、如何保证redis中的数据都是热点数据
+https://www.cnblogs.com/neozheng/p/13664434.html
 
 
-### 二、应用维度
-##### 2.1 缓存使用
-##### 2.2 集群运用
-##### 2.3 数据结构的巧妙使用
 
 
-
-### 三、系统维度
-##### 3.1 高性能：线程模型、网络io模型、数据结构、持久化机制
-##### 3.2 高可用：主从复制、哨兵集群
-##### 3.3 高扩展：cluster分片集群
-
-
-
-
-
-
-
-
-
-热点数据和冷数据
 
 Redis持久化数据和缓存怎么做扩容
 
-24、redis给缓存数据设置过期时间有啥用
-25、redis是如何判断数据是否过期的呢？（数据过期策略）
-持久化文件对过期策略的处理
-
-26、过期数据的删除策略
-27、redis的内存淘汰机制
-redis实现的链表有哪些特性
-reids是如何实现字典的
-redishash冲突了怎么办
-什么是渐进式rehash
-redis回收进程如何工作的？
-redis回收使用的是什么算法
-redis存储中文的方式
-
-
-
-
-什么是redis的pipeline
-原生批命令（mset、mget）和pipeline的区别
-
-如何保证redis中的数据都是热点数据
-
-redis是单线程的、如何提高多核cpu的利用率
 为什么要做redis分区、常见的分区算法
 你知道哪些redis的分区实现方案
 redis分区有什么缺点
@@ -241,7 +253,7 @@ redis的基本命令
 查看 Redis 使用情况及状态信息用什么命令
 
 
-lru算法
+
 
 
 
