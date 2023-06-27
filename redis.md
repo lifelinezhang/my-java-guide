@@ -2,9 +2,33 @@
 ##### 1、redis为什么这么快
 https://blog.csdn.net/CSDN2497242041/article/details/120755188
 https://mp.weixin.qq.com/s?__biz=MzkzMDI1NjcyOQ==&mid=2247487752&idx=1&sn=72a1725e1c86bb5e883dd8444e5bd6c4&source=41#wechat_redirect
+https://juejin.cn/post/6996516104960999437
 
 ##### 2、常见的缓存读写策略
 https://juejin.cn/post/7093452218535247886
+
+##### 3、redis的持久化机制
+##### 4、在生成rdb期间，redis可以同时处理写请求吗
+https://juejin.cn/post/7223938976159481912
+
+##### 23、redis的后台线程
+https://juejin.cn/post/7102780434739626014
+
+##### 5、redis6.0之前为什么不适用多线程
+##### 6、redis6.0之后为何引入了多线程
+##### 7、多线程如何开启以及配置
+https://blog.csdn.net/star1210644725/article/details/118078906
+
+##### 8、reids多线程的实现机制
+##### 9、多线程是否会导致线程安全问题
+##### 10、redis和memcached多线程的区别
+https://blog.csdn.net/zhizhengguan/article/details/120627481
+
+
+
+##### 11、虚拟内存机制
+https://developer.aliyun.com/article/807905
+
 
 ### 二、数据类型与数据结构
 ##### 1、redis支持的基本数据类型、每个类型的的数据结构实现
@@ -25,6 +49,7 @@ https://juejin.cn/post/7031503546767900686
 ##### 9、一个redis实例最多能存放多少的keys，list、set、sortedset他们最多能存多少元素
 https://blog.csdn.net/mrlin6688/article/details/105954089
 
+
 ### 三、不同数据类型的应用场景
 ##### 1、、String还是Hash存储对象数据更好呢？
 https://juejin.cn/post/6964186850613428231
@@ -40,6 +65,19 @@ https://blog.csdn.net/mutf7/article/details/119841617
 https://juejin.cn/post/6963821033766240264
 ##### 7、使用HyperLogLog统计页面UV怎么做？
 https://blog.csdn.net/lilizhou2008/article/details/109610186
+
+##### 8、redis可以做消息队列吗
+https://www.cnblogs.com/zhaosq/p/13208613.html
+
+##### 9、redis做分布式锁，有什么缺陷、
+https://blog.csdn.net/MRZHQ/article/details/129150740
+
+##### 10、Redlock算法
+https://juejin.cn/post/7049588479025479717
+https://juejin.cn/post/6927204732704391175
+
+
+### 缓存
 
 
 ### 二、应用维度
@@ -58,35 +96,17 @@ https://blog.csdn.net/lilizhou2008/article/details/109610186
 
 
 
-redis底层使用的什么协议
-
-6、redis除了做缓存，还能做什么
-7、redis做分布式锁，有什么缺陷、Redlock算法
-8、redis可以做消息队列吗
 
 
 
-19、redis的持久化机制
-20、redis单线程模型及为什么（IO多路复用）
-虚拟内存机制
+
 热点数据和冷数据
-21、redis6.0之前为什么不适用多线程
-22、redis6.0之后为何引入了多线程
-多线程如何开启以及配置
-reids多线程的实现机制
-多线程是否会导致线程安全问题
-redis和memcached多线程的区别
 
 Redis持久化数据和缓存怎么做扩容
-为什么redis需要把所有数据放到内存中
 
-
-23、redis的后台线程
 24、redis给缓存数据设置过期时间有啥用
 25、redis是如何判断数据是否过期的呢？（数据过期策略）
 持久化文件对过期策略的处理
-redis的RDB和AOF
-在生成rdb期间，redis可以同时处理写请求吗
 
 26、过期数据的删除策略
 27、redis的内存淘汰机制
