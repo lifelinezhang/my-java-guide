@@ -50,6 +50,12 @@ https://blog.csdn.net/Crezfikbd/article/details/120390038
 ##### 15、redis是单线程的、如何提高多核cpu的利用率
 https://developer.aliyun.com/ask/327646
 
+##### 16、Redis持久化数据和缓存怎么做扩容
+https://blog.csdn.net/yanganbang880605/article/details/121599984
+
+##### 17、修改配置不重启 Redis 会实时生效吗
+https://www.cnblogs.com/xzlive/p/14363351.html
+
 
 ### 二、数据类型与数据结构
 ##### 1、redis支持的基本数据类型、每个类型的的数据结构实现
@@ -107,8 +113,11 @@ https://blog.csdn.net/MRZHQ/article/details/129150740
 https://juejin.cn/post/7049588479025479717
 https://juejin.cn/post/6927204732704391175
 
+##### 11、redis发布订阅
+https://blog.csdn.net/Jason_Dom/article/details/108599666
 
-### 缓存
+
+### 四、缓存
 ##### 1、热点数据和冷数据
 https://blog.csdn.net/siyuanwai/article/details/119998499
 
@@ -134,33 +143,31 @@ https://blog.csdn.net/qq_40276626/article/details/120613552
 https://www.cnblogs.com/neozheng/p/13664434.html
 
 
+##### 11、为什么要做redis分区、常见的分区算法
+##### 12、你知道哪些redis的分区实现方案
+##### 13、redis分区有什么缺点
+https://blog.csdn.net/zhizhengguan/article/details/120684047
 
 
-
-Redis持久化数据和缓存怎么做扩容
-
-为什么要做redis分区、常见的分区算法
-你知道哪些redis的分区实现方案
-redis分区有什么缺点
-修改配置不重启 Redis 会实时生效吗
-redis发布订阅
-
-
-### redis事务
-28、什么是redis事务
-29、如何使用redis事务
-30、redis的事务支持原子性吗、支持回滚吗
-31、redis事务支持持久性吗
-32、如何解决redis事务的缺陷
-如何保证redis的高并发
-如何解决redis的并发竞争key的问题
-如何保证redis的原子性
+### 五、redis事务
+##### 1、什么是redis事务
+##### 2、如何使用redis事务
+##### 3、redis的事务支持原子性吗、支持回滚吗
+##### 4、redis事务支持持久性吗
 redis事务相关的命令有哪些
-rediskey的过期时间和永久有效分别怎么设置
+https://bbs.huaweicloud.com/blogs/396329?utm_source=zhihu&utm_medium=bbs-ex&utm_campaign=other&utm_content=content
+
+##### 5、如何保证redis的高并发
+##### 6、如何解决redis的并发竞争key的问题
+##### 7、如何保证redis的原子性
+https://juejin.cn/post/7028202018338504734
+
+##### 8、rediskey的过期时间和永久有效分别怎么设置
+https://blog.csdn.net/haoranhaoshi/article/details/109781570
 
 
 
-### redis性能优化
+### 六、高性能
 https://mp.weixin.qq.com/s/nNEuYw0NlYGhuKKKKoWfcQ
 https://javaguide.cn/database/redis/redis-common-blocking-problems-summary.html
 https://mp.weixin.qq.com/s/mIc6a9mfEGdaNDD3MmfFsg
