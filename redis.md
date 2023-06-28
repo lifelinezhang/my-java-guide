@@ -106,7 +106,7 @@ https://blog.csdn.net/lilizhou2008/article/details/109610186
 ##### 8、redis可以做消息队列吗
 https://www.cnblogs.com/zhaosq/p/13208613.html
 
-##### 9、redis做分布式锁，有什么缺陷、
+##### 9、redis做分布式锁，有什么缺陷
 https://blog.csdn.net/MRZHQ/article/details/129150740
 
 ##### 10、Redlock算法
@@ -115,7 +115,8 @@ https://juejin.cn/post/6927204732704391175
 
 ##### 11、redis发布订阅
 https://blog.csdn.net/Jason_Dom/article/details/108599666
-
+##### 12、redis做延时队列
+https://juejin.cn/post/7161685745256628232
 
 ### 四、缓存
 ##### 1、热点数据和冷数据
@@ -167,39 +168,48 @@ https://blog.csdn.net/haoranhaoshi/article/details/109781570
 
 
 
-### 六、高性能
+### 六、redis常见性能问题和解决方案
+##### 1、使用批量操作减少网络传输
+https://juejin.cn/post/7210310775277469756
+##### 2、大量key集中过期问题
+https://mp.weixin.qq.com/s?__biz=MjM5NzQxMTAyNw==&mid=2247484581&idx=1&sn=9db93d0a341b554caf229f8d66a34799&chksm=a6db251991acac0f4ab51a969a998981c842a0a58f7153f21868ec2ed7ece5e225226ff9f367&scene=21#wechat_redirect
+##### 3、redis bigkey
+https://juejin.cn/post/7214015604533837885
+##### 4、redis hotkey
+https://help.aliyun.com/document_detail/353223.html
+##### 5、慢查询命令
+https://developer.aliyun.com/article/860798
+##### 6、redis内存碎片
+https://juejin.cn/post/7153526533922455559
+##### 7、redis如何做内存优化
+https://juejin.cn/post/7117930620969287716
+##### 8、有哪些办法可以降低redis的内存使用情况
+https://www.cnblogs.com/zhaodahai/p/6824389.html
+##### 9、redis内存用完了会发生什么
+https://zhuanlan.zhihu.com/p/614748931
+##### 10、问题排查
+```
 https://mp.weixin.qq.com/s/nNEuYw0NlYGhuKKKKoWfcQ
 https://javaguide.cn/database/redis/redis-common-blocking-problems-summary.html
 https://mp.weixin.qq.com/s/mIc6a9mfEGdaNDD3MmfFsg
 https://mp.weixin.qq.com/s/FPYE1B839_8Yk1-YSiW-1Q
-redis常见性能问题和解决方案
+```
+##### 11、哪些情况可能会导致redis阻塞
 
-33、使用批量操作减少网络传输
-34、大量key集中过期问题
-35、redis bigkey
-36、redis hotkey
-37、慢查询命令
-38、redis内存碎片
-redis如何做内存优化
-有哪些办法可以降低redis的内存是使用情况
-redis内存用完了会发生什么
 
-### redis生产问题
-39、缓存穿透
-布隆过滤器
-40、缓存击穿
-41、缓存雪崩
-42、如何保证缓存和数据库数据的一致性
-43、哪些情况可能会导致redis阻塞
-如何设置key当前失效
-如何实现分布式锁
-如何实现排行榜功能
-分布式Redis是前期做还是后期规模上来了再做好？为什么？
-缓存预热
-缓存降级
-redis做异步队列
-redis做延时队列
+### 七、redis生产问题
+##### 1、缓存穿透（布隆过滤器）
+##### 2、缓存击穿
+##### 3、缓存雪崩
+##### 4、如何保证缓存和数据库数据的一致性
+https://juejin.cn/post/7185923117611483196
 
+##### 5、分布式Redis是前期做还是后期规模上来了再做好？为什么？
+https://www.zhihu.com/question/556316240
+
+##### 6、缓存预热
+##### 7、缓存降级
+https://blog.csdn.net/tongkongyu/article/details/124901093
 
 
 ### redis集群
