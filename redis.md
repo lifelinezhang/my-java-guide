@@ -166,9 +166,22 @@ https://juejin.cn/post/7028202018338504734
 ##### 8、rediskey的过期时间和永久有效分别怎么设置
 https://blog.csdn.net/haoranhaoshi/article/details/109781570
 
+### 六、redis生产问题
+##### 1、缓存穿透（布隆过滤器）
+##### 2、缓存击穿
+##### 3、缓存雪崩
+##### 4、如何保证缓存和数据库数据的一致性
+https://juejin.cn/post/7185923117611483196
+
+##### 5、分布式Redis是前期做还是后期规模上来了再做好？为什么？
+https://www.zhihu.com/question/556316240
+
+##### 6、缓存预热
+##### 7、缓存降级
+https://blog.csdn.net/tongkongyu/article/details/124901093
 
 
-### 六、redis常见性能问题和解决方案
+### 七、redis常见性能问题和解决方案
 ##### 1、使用批量操作减少网络传输
 https://juejin.cn/post/7210310775277469756
 ##### 2、大量key集中过期问题
@@ -197,46 +210,33 @@ https://mp.weixin.qq.com/s/FPYE1B839_8Yk1-YSiW-1Q
 ##### 11、哪些情况可能会导致redis阻塞
 
 
-### 七、redis生产问题
-##### 1、缓存穿透（布隆过滤器）
-##### 2、缓存击穿
-##### 3、缓存雪崩
-##### 4、如何保证缓存和数据库数据的一致性
-https://juejin.cn/post/7185923117611483196
+### 八、主从、哨兵
+##### 1、redis主从复制的实现
+https://blog.csdn.net/qq_42815754/article/details/120452032
+##### 2、主从不一致的问题
+##### 3、主从切换
+##### 4、脑裂
+https://blog.csdn.net/m0_45406092/article/details/117175920
+https://blog.csdn.net/weixin_45525272/article/details/127580264
 
-##### 5、分布式Redis是前期做还是后期规模上来了再做好？为什么？
-https://www.zhihu.com/question/556316240
+##### 5、什么是redis sentinel，有什么用
+##### 6、sentinel如何检测节点是否下线？主管下线和客观下线的区别
+##### 7、sentinel是如何实现故障转移的
+##### 8、如何从sentinel集群中选择出leader
+##### 9、sentinel如何选择出新的master
+https://juejin.cn/post/6998564627525140494
+##### 10、为什么建议部署多个sentinel节点
+https://www.yisu.com/zixun/320609.html
 
-##### 6、缓存预热
-##### 7、缓存降级
-https://blog.csdn.net/tongkongyu/article/details/124901093
+
+##### 11、sentinel可以防止脑裂吗
+https://blog.csdn.net/chuixue24/article/details/115396646
 
 
-### redis集群
-怎么实现Redis的高可用
 
-redis sentinel
-1、什么是sentinel，有什么用
-哨兵的主要工作任务
-哨兵模式搭建
-哨兵模式的工作原理
-2、sentinel如何检测节点是否下线？主管下线和客观下线的区别
-3、sentinel是如何实现故障转移的
-4、为什么建议部署多个sentinel节点
-5、sentinel如何选择出新的master
-6、如何从sentinel集群中选择出leaser
-7、sentinel可以防止脑裂吗
+
+### 九、集群
 redis集群搭建有几种模式
-哨兵模式的原理
-哨兵模式故障迁移流程
-
-
-主从
-redis主从复制的实现
-redis的主从同步策略
-
-
-
 redis cluster
 1、为什么需要redis cluster，解决了什么问题，有什么优势
 2、rediscluster是如何分片的
