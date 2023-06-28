@@ -236,38 +236,64 @@ https://blog.csdn.net/chuixue24/article/details/115396646
 
 
 ### 九、集群
-redis集群搭建有几种模式
-redis cluster
-1、为什么需要redis cluster，解决了什么问题，有什么优势
-2、rediscluster是如何分片的
-3、为什么reids cluster的哈希槽是16384个
-什么是一致性hash以及解决什么问题
-cluster模式的原理
-cluster集群的扩容流程
-cluster集群收缩流程
-集群的故障发现和迁移
-codis、twemproxy以及cluster方案对比
-集群会有写操作丢失吗？为什么
-集群之间是如何复制的
-集群的最大节点个数是多少
-redis集群如何选择数据库
-怎么测试redis的连通性
-redis集中群节点的通信机制
-redis集群中节点的数据分布算法
-Redis 集群方案什么情况下会导致整个集群不可用
-如何实现集群中的 session 共享存储
+##### 1、redis集群搭建有几种模式
+https://juejin.cn/post/7074986627356950559
+
+##### 2、为什么需要redis cluster，解决了什么问题，有什么优势
+https://juejin.cn/post/6880132096803733517
+
+##### 3、rediscluster是如何分片的
+##### 4、cluster模式的原理
+##### 5、cluster集群的扩容流程
+##### 6、cluster集群收缩流程
+https://blog.csdn.net/Seky_fei/article/details/107611850
+
+##### 7、为什么reids cluster的哈希槽是16384个
+https://cloud.tencent.com/developer/article/1912954
+
+##### 8、什么是一致性hash以及解决什么问题
+https://zhuanlan.zhihu.com/p/179266232
+
+##### 9、集群的故障发现和迁移
+https://blog.csdn.net/feiying0canglang/article/details/123580874
+
+##### 10、codis、twemproxy以及cluster方案对比
+https://segmentfault.com/a/1190000040083625
+
+##### 11、集群会有写操作丢失吗？为什么
+https://blog.csdn.net/meism5/article/details/104258023
+
+##### 12、集群之间是如何复制的
+https://zhuanlan.zhihu.com/p/102859170
+
+##### 13、集群的最大节点个数是多少
+https://blog.csdn.net/meism5/article/details/104258025
+
+##### 14、redis集群如何选择数据库
+https://blog.csdn.net/yanyanhj/article/details/121561861
+
+##### 15、怎么测试redis的连通性
+https://www.cnblogs.com/programb/p/13020153.html
+
+##### 16、redis集群节点的通信机制
+https://www.cnblogs.com/duanxz/p/15893958.html
+
+##### 17、redis集群中节点的数据分布算法
+https://blog.csdn.net/Jgx1214/article/details/115166950
+
+##### 18、Redis 集群方案什么情况下会导致整个集群不可用
+https://zhuanlan.zhihu.com/p/348669048
+
+##### 19、如何实现集群中的 session 共享存储
+https://blog.51cto.com/u_13478207/3334390
+
+##### 20、redis支持的java客户端都有什么？官方推荐哪个
+https://blog.csdn.net/Ye_GuoLin/article/details/115208061
 
 
-### redis客户端
-redis支持的java客户端都有什么？官方推荐哪个
-jedis和redisson对比有什么优缺点
+##### 21、redis的基本命令
+https://www.cnblogs.com/antLaddie/p/15362191.html
 
-
-
-
-
-redis的基本命令
-查看 Redis 使用情况及状态信息用什么命令
 
 
 
