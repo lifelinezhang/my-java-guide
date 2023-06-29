@@ -21,6 +21,9 @@
 20、分布式消息队列技术选型
 21、amqp协议三层
 22、amqp模型组件
+23、mq选型
+
+
 
 ### RabbitMQ
 1、基本概念、组件、路由模式
@@ -69,6 +72,73 @@
 
 
 ### RocketMQ
+1、rocketmq由哪些角色组成，每个角色的作用和特点是什么
+消息模型、发送消息的方式、消费方式
+rocketmq的架构
+
+2、rocketmq中的topic和jms中的queue有什么区别
+3、rocketmq的broker中的消息被消费后会立即删除吗
+那么消息会堆积吗，什么时候清理过期消息
+4、rocketmq消费模式有几种
+5、消费消息是push还是pull
+为什么要主动拉取消息而不是使用事件监听方式
+6、broker如何处理拉取请求的
+7、rocketmq如何做负载均衡
+producer端
+consumer端
+当消费负载均衡consumer和queue不对等的时候会发生什么
+8、消息重复消费
+
+消息过滤
+
+9、如何让rocketmq保证消息的顺序消费
+怎么保证消息发到同一个queue
+10、rocketmq如何保证消息不丢失
+producer端如何保证消息不丢失
+broker端如何保证消息不丢失
+consumer端如何保证消息不丢失
+11、rocketmq的消息堆积如何处理
+如何consumer和queue不对等，上线了多台也在短时间内无法消费完堆积的消息怎么办
+堆积时间过长消息超时了
+堆积的消息会不会进死信队列
+12、rocketmq在分布式事务支持这块机制的底层原理
+事务消息
+
+
+延迟消息
+
+13、如何让你来动手实现一个分布式消息中间件，整体架构你会如何设计实现
+14、看过rocketmq的源码没有，如果看过，说说你的理解
+15、高吞吐量下如何优化生产者和消费者的性能，从开发和运维的角度
+16、roncketmq是如何保证数据的高容错性的
+17、任何一台broker突然宕机了怎么办
+18、broker把自己的信息注册到哪个nameserver上
+nameserver的路由剔除
+nameserver的路由发现
+客户端对nameserver的选择策略
+19、rocketmq的刷盘策略
+20、rocketmq的复制策略
+21、rocketmq的集群部署方式
+22、rebalance机制
+23、什么是消费的至少一次原则
+24、rocketmq的offset的管理
+25、任何一台的broker突然宕机了怎么办？还能使用吗？消息会不会丢失
+26、怎么知道有哪些broker，如何知道要连哪个broker
+27、nameserver到底可以部署几台机器？为什么要集群化部署
+28、系统如何从nameserver获取broker信息
+29、broker挂了，系统是怎么感知到的
+30、master broker是如何将消息同步给slave broker的
+31、消费消息时是从master获取还是slave获取
+32、如果slave broker挂掉了，会对整个系统有影响吗
+33、master broker突然挂了，这样会怎么样
+34、为什么使用nameserver而非zookpeer
+35、nameserver如何保证最终一致性
+36、客户端nameserver选择策略
+37、rocketmq性能比较高的原因
+38、rocketmq的存储机制
+
+
+
 
 
 
