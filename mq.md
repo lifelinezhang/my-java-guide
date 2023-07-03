@@ -1,26 +1,51 @@
 ### 消息队列基础
-1、为什么要用消息队列
-2、消息队列有什么用
-3、消息队列有几种类型
-4、如何保证消息不丢失
-5、如何处理重复消息
-6、如何保证消息的有序性
-7、如何处理消息堆积
-8、消息队列有什么缺点
+##### 1、为什么要用消息队列
+https://cloud.tencent.com/developer/article/1961095
+
+##### 2、消息队列有什么缺点
+https://blog.csdn.net/qq_37181069/article/details/123097966
+
+##### 3、MQ常用协议
+https://www.cnblogs.com/doit8791/p/10230326.html
+
+##### 4、MQ的通讯模式
+https://blog.csdn.net/cscer/article/details/112811
+
+##### 5、多线程异步和MQ的区别
+https://juejin.cn/post/6943129937163321351
+
+##### 6、JMS和AMQP
+https://www.cnblogs.com/myibm/p/7919073.html
+
+##### 7、amqp协议三层
+https://www.cnblogs.com/LQBlog/p/15641870.html
+
+##### 8、amqp模型组件
+https://developer.aliyun.com/article/847370
+
+##### 9、RPC和消息队列的区别
+https://www.cnblogs.com/ouhaitao/p/9261984.html
+
+##### 10、消息队列的一些基本概念
+##### 11、如何保证消息不丢失
+##### 12、如何处理重复消息
+##### 13、如何保证消息的有序性
+##### 14、如何处理消息堆积
+https://www.cnblogs.com/zhanqing/p/queue.html
+https://www.cnblogs.com/linwenbin/p/13382753.html
+
+
 9、如何保证消息队列的高可用
-10、MQ常用协议
-11、MQ的通讯模式
+https://juejin.cn/post/6892275796870856717
+
+
+
 12、MQ中的消息过期失效了怎么办
 13、如何保证数据一致性、事务消息如何实现
 14、如何设计一个消息队列
 15、MQ选型比较
-16、消息队列的一些基本概念
-17、多线程异步和MQ的区别
-18、JMS和AMQP
-19、RPC和消息队列的区别
+
 20、分布式消息队列技术选型
-21、amqp协议三层
-22、amqp模型组件
 23、mq选型
 
 
