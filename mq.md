@@ -105,34 +105,53 @@ https://www.jianshu.com/p/84b3e5d9f8f8
 ##### 18、消费端怎么进行限流
 https://juejin.cn/post/7051845794025963550
 
-19、死信队列
-22、导致死信的原因有哪些
+##### 19、死信队列
+##### 20、导致死信的原因有哪些
 https://mfrank2016.github.io/breeze-blog/2020/05/04/rabbitmq/rabbitmq-how-to-use-dead-letter-queue/
 
-20、消息的过期时间
+##### 21、消息的过期时间
 https://juejin.cn/post/6976407122070208549
 
-21、pull模式
+##### 22、交换器无法根据自身类型和路由键找到符合条件队列时，有哪些处理
+https://blog.csdn.net/qq_44761854/article/details/123394872
 
-23、什么是优先级队列
+##### 23、什么是优先级队列
 https://zhuanlan.zhihu.com/p/582787804
 
-24、延迟队列
+##### 24、延迟队列
 https://blog.csdn.net/u012702547/article/details/121774700
 
-25、rabbitmq的事务机制
-26、发送确认机制
-27、消费者获取消息的方式
-28、消费者无法处理当前接受的消息如何来拒绝
-29、消息传输保证层级
-30、vhost是什么
-31、说说集群中的节点类型
-32、熟悉队列结构吗
-33、rabbitmq中消息可能有的几种状态
-34、生产者如何将消息可靠投递到MQ
-35、如何保证rabbitMQ消息队列的高可用
-36、rabbitmq集群
-37、交换器无法根据自身类型和路由键找到符合条件队列时，有哪些处理
+##### 25、rabbitmq的事务机制
+##### 26、发送确认机制
+https://blog.csdn.net/qq_40950803/article/details/106473259
+
+##### 27、消费者获取消息的方式
+##### 28、pull模式
+https://blog.csdn.net/ITWANGBOIT/article/details/105428281
+
+##### 29、消费者无法处理当前接受的消息如何来拒绝
+https://www.jianshu.com/p/49f7c25f6d4d
+
+##### 30、消息传输保证层级
+https://blog.csdn.net/mytt_10566/article/details/93492501
+
+##### 31、熟悉队列结构吗
+https://www.cnblogs.com/kancy/p/13401554.html
+
+##### 32、vhost是什么
+https://zhuanlan.zhihu.com/p/635550531
+
+##### 33、rabbitmq中消息可能有的几种状态
+https://www.cnblogs.com/diumyself/p/12990737.html
+
+##### 34、如何保证rabbitMQ消息队列的高可用
+https://juejin.cn/post/6892275796870856717
+
+##### 35、rabbitmq集群
+##### 36、说说集群中的节点类型
+https://www.cnblogs.com/vipstone/p/9368106.html
+
+
 
 
 
