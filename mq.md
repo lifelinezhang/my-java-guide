@@ -105,16 +105,21 @@ https://www.jianshu.com/p/84b3e5d9f8f8
 ##### 18、消费端怎么进行限流
 https://juejin.cn/post/7051845794025963550
 
-
-
-
-
 19、死信队列
-20、消息的过期时间
-21、pull模式
 22、导致死信的原因有哪些
+https://mfrank2016.github.io/breeze-blog/2020/05/04/rabbitmq/rabbitmq-how-to-use-dead-letter-queue/
+
+20、消息的过期时间
+https://juejin.cn/post/6976407122070208549
+
+21、pull模式
+
 23、什么是优先级队列
+https://zhuanlan.zhihu.com/p/582787804
+
 24、延迟队列
+https://blog.csdn.net/u012702547/article/details/121774700
+
 25、rabbitmq的事务机制
 26、发送确认机制
 27、消费者获取消息的方式
@@ -128,7 +133,6 @@ https://juejin.cn/post/7051845794025963550
 35、如何保证rabbitMQ消息队列的高可用
 36、rabbitmq集群
 37、交换器无法根据自身类型和路由键找到符合条件队列时，有哪些处理
-38、导致死信的几种原因
 
 
 
