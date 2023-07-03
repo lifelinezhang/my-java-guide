@@ -34,19 +34,20 @@ https://www.cnblogs.com/ouhaitao/p/9261984.html
 https://www.cnblogs.com/zhanqing/p/queue.html
 https://www.cnblogs.com/linwenbin/p/13382753.html
 
-
-9、如何保证消息队列的高可用
+##### 15、如何保证消息队列的高可用
 https://juejin.cn/post/6892275796870856717
 
+##### 16、MQ中的消息过期失效了怎么办
+https://blog.csdn.net/liuerchong/article/details/107784071
 
+##### 17、如何保证数据一致性、事务消息如何实现
+https://blog.csdn.net/qq_34436819/article/details/114444204
 
-12、MQ中的消息过期失效了怎么办
-13、如何保证数据一致性、事务消息如何实现
-14、如何设计一个消息队列
-15、MQ选型比较
+##### 18、如何设计一个消息队列
+https://juejin.cn/post/7189046009979224124
 
-20、分布式消息队列技术选型
-23、mq选型
+##### 19、MQ选型比较
+https://zhuanlan.zhihu.com/p/443193843
 
 
 
