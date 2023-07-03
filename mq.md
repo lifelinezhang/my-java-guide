@@ -52,24 +52,63 @@ https://zhuanlan.zhihu.com/p/443193843
 
 
 ### RabbitMQ
-1、基本概念、组件、路由模式
-2、使用场景、优缺点
-3、工作模式
-4、如何保证rabbit消息的顺序性
-5、消息如何分发
-6、消息如何路由
-7、消息基于什么传输
-8、如何避免消息重复投递或重复消费
-9、如何确保消息正确地发送至RabbitMq？如何确保消息接收方消费了消息
-10、如何保证RabbitMq消息的可靠传输
-11、为什么不应该对所有的message都是用持久化机制
-12、如何保证高可用？Rabbitmq集群
-13、如何解决消息队列的延时以及过期失效问题
-14、消息队列满了以后该怎么处理
-15、有几百万的消息持续挤压几个小时，该怎么解决
-16、镜像队列
-17、持久化机制
-18、消费端怎么进行限流
+##### 1、基本概念、组件、路由模式
+https://cloud.tencent.com/developer/article/1684012
+
+##### 2、工作模式
+https://juejin.cn/post/7088899893527314468
+
+##### 3、如何保证rabbit消息的顺序性
+https://blog.csdn.net/weixin_42039228/article/details/123526391
+
+##### 4、消息如何分发
+https://blog.csdn.net/m0_55917971/article/details/123452589
+
+##### 5、消息如何路由
+https://zhuanlan.zhihu.com/p/562562561
+
+##### 6、消息基于什么传输
+##### 7、什么是信道
+https://www.cnblogs.com/eleven24/p/10326718.html
+
+##### 8、如何避免消息重复投递或重复消费
+https://blog.csdn.net/wang_luwei/article/details/123613091
+
+##### 9、如何确保消息正确地发送至RabbitMq？如何确保消息接收方消费了消息
+https://blog.csdn.net/siyuanwai/article/details/119451108
+
+##### 10、如何保证RabbitMq消息的可靠传输
+https://blog.csdn.net/n950814abc/article/details/98313272
+
+##### 11、为什么不应该对所有的message都是用持久化机制
+https://www.jianshu.com/p/fa697f7b26b5
+
+##### 12、如何保证高可用？Rabbitmq集群
+https://juejin.cn/post/7074848159318409247
+
+##### 13、如何解决消息队列的延时以及过期失效问题
+https://www.cnblogs.com/javalank/p/14751624.html
+https://www.yisu.com/zixun/588599.html
+
+##### 14、消息队列满了以后该怎么处理
+https://www.cnblogs.com/fengli9998/p/10387323.html
+
+##### 15、有几百万的消息持续挤压几个小时，该怎么解决
+https://juejin.cn/post/7077205778465030181
+
+##### 16、镜像队列
+https://juejin.cn/post/7085011568991141919
+
+##### 17、持久化机制
+https://www.jianshu.com/p/84b3e5d9f8f8
+
+##### 18、消费端怎么进行限流
+https://juejin.cn/post/7051845794025963550
+
+
+
+
+
 19、死信队列
 20、消息的过期时间
 21、pull模式
@@ -90,7 +129,7 @@ https://zhuanlan.zhihu.com/p/443193843
 36、rabbitmq集群
 37、交换器无法根据自身类型和路由键找到符合条件队列时，有哪些处理
 38、导致死信的几种原因
-39、什么是信道
+
 
 
 
