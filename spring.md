@@ -131,6 +131,8 @@ spring支持哪些orm框架
 
 @Autowired 注解有什么用？
 
+使用@Autowired 注解自动装配的过程是怎么样的
+
 @Qualifier 注解有什么用？
 
 
@@ -144,7 +146,6 @@ spring支持哪些orm框架
 1、谈谈对aop的理解
 
 解释aop模块
-
 
 什么是aspectj
 
@@ -201,6 +202,22 @@ ApplicationContext 通常的实现是什么
 Bean 工厂和 Application contexts 有什么区别？
 
 一个 Spring 的应用看起来象什么？
+
+spring获取bean的流程
+
+spring的缓存
+
+为什么需要三级缓存
+
+
+什么是循环依赖
+spring中的三种循环依赖
+如何判断产生了循环依赖
+spring如何解决循环依赖
+
+beanfactory和factory的不同
+
+区分beanfactory和applicationcontext的不同
 
 
 
