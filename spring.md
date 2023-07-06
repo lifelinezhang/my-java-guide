@@ -1,28 +1,22 @@
 ### 一、基础知识
 1、spring包含的模块有哪些
-
-3、springmvc的核心组件
-
-4、springmvc的工作原理
+https://juejin.cn/post/7225061494600532023
 
 5、统一异常处理
+https://juejin.cn/post/6959520793063587848
 
 6、spring框架中用到了哪些设计模式
-
-spring MVC框架有什么用
-
-描述一下DispatcherServlet的工作流程
+https://zhuanlan.zhihu.com/p/336671458
 
 介绍一下WebApplicationContext
-
-什么是springmvc框架的控制器
 
 核心容器（应用上下文）模块
 
 spring框架中有哪些不同类型的事件
 
-spring应用程序有哪些不同组件
+spring中的事件驱动机制是怎么样的？有哪些默认事件
 
+spring应用程序有哪些不同组件
 
 BeanFactory 实现举例。
 
@@ -43,9 +37,14 @@ jdbctemplate
 spring如何处理线程并发问题
 
 
+### springMVC
+1、springmvc的核心组件
+2、springmvc的工作原理
+3、spring MVC框架中，HandlerAdapter的作用是什么？
+https://blog.csdn.net/baidu_38760069/article/details/96479412
 
-
-
+4、描述一下DispatcherServlet的工作流程
+https://www.jianshu.com/p/0f981efdfbbd
 
 ### 二、IOC
 1、谈谈对ioc的理解
@@ -197,6 +196,8 @@ spring框架的事务管理有哪些有点
 
 
 ### 五、源码
+https://www.cnblogs.com/java-chen-hao/category/1587029.html
+
 ApplicationContext 通常的实现是什么
 
 Bean 工厂和 Application contexts 有什么区别？
@@ -219,12 +220,15 @@ beanfactory和factory的不同
 
 区分beanfactory和applicationcontext的不同
 
-
+filesystemresource和classpathresource有何区别
 
 
 
 
 ### springboot
+
+https://www.cnblogs.com/java-chen-hao/category/1480619.html
+
 1、SpringBoot配置加载顺序
 
 2、什么是javaconfig
