@@ -126,6 +126,7 @@ https://juejin.cn/post/6903865866849517581
 ##### 20、自动装配源码解析
 https://www.cnblogs.com/ludangxin/p/15092237.html
 
+https://javaguide.cn/system-design/framework/spring/spring-boot-auto-assembly-principles.html
 
 ##### 21、在spring中如何注入一个java集合
 https://juejin.cn/post/7215825282039611452
@@ -180,16 +181,15 @@ https://www.developers.pub/faq/1186785
 
 ### 六、事务
 https://developer.aliyun.com/article/883480
-1、spring管理事务的方式有几种
 
-spring框架的事务管理有哪些有点
+##### 1、spring管理事务的方式有几种
+https://javaguide.cn/system-design/framework/spring/spring-transaction.html#spring-%E6%94%AF%E6%8C%81%E4%B8%A4%E7%A7%8D%E6%96%B9%E5%BC%8F%E7%9A%84%E4%BA%8B%E5%8A%A1%E7%AE%A1%E7%90%86
 
-你更倾向于用哪种事务管理类型
+##### 2、spring事务中哪几种事务传播行为
+https://juejin.cn/post/6870790953922215950
 
-2、spring事务中哪几种事务传播行为
-
-3、spring事务中的隔离级别有哪几种
-
+##### 3、spring事务中的隔离级别有哪几种
+https://juejin.cn/post/7076385205707079711
 
 ### 五、源码
 https://www.cnblogs.com/java-chen-hao/category/1587029.html
