@@ -130,25 +130,21 @@ https://juejin.cn/post/7215825282039611452
 ##### 22、可以在spring中注入一个null和一个空字符串吗
 https://developer.aliyun.com/article/998477
 
-### 注解
-@Component, @Controller, @Repository, @Service 有何区别？
+### 四、注解
+##### 1、@Required 注解有什么用？
+https://www.cnblogs.com/programb/p/13019035.html
 
-@Required 注解有什么用？
+##### 2、使用@Autowired 注解自动装配的过程是怎么样的
+https://www.jianshu.com/p/3bd1cf2ba24f
 
-@Autowired 注解有什么用？
+##### 3、@Qualifier 注解有什么用？
+https://www.w3cschool.cn/wkspring/knqr1mm2.html
 
-使用@Autowired 注解自动装配的过程是怎么样的
-
-@Qualifier 注解有什么用？
-
-
-@RequestMapping 注解有什么用？
-
-3、@Autowried和@Resource的区别
+##### 4、@Autowried和@Resource的区别
+https://www.jianshu.com/p/21426f3eacb8
 
 
-
-### 三、AOP
+### 五、AOP
 1、谈谈对aop的理解
 
 解释aop模块
