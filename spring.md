@@ -1,127 +1,134 @@
 ### 一、基础知识
-1、spring包含的模块有哪些
+##### 1、spring包含的模块有哪些
+##### 2、解释对象\关系映射集成模块
+##### 3、解释web模块
+
 https://juejin.cn/post/7225061494600532023
 
-5、统一异常处理
+https://www.cnblogs.com/jxxblogs/p/12143015.html
+
+##### 4、统一异常处理
 https://juejin.cn/post/6959520793063587848
 
-6、spring框架中用到了哪些设计模式
+##### 5、spring框架中用到了哪些设计模式
 https://zhuanlan.zhihu.com/p/336671458
 
-介绍一下WebApplicationContext
+##### 6、spring框架中有哪些不同类型的事件
+https://www.cnblogs.com/programb/p/12886043.html
 
-核心容器（应用上下文）模块
+##### 7、spring中的事件驱动机制是怎么样的
+https://juejin.cn/post/6869946091979145224
 
-spring框架中有哪些不同类型的事件
+https://juejin.cn/post/7140849555607650335
 
-spring中的事件驱动机制是怎么样的？有哪些默认事件
+##### 6、解释JDBC抽象和DAO模式
+https://juejin.cn/post/6844903487470305293
 
-spring应用程序有哪些不同组件
+https://www.cnblogs.com/davidwang456/p/4462351.html
 
-BeanFactory 实现举例。
+https://segmentfault.com/a/1190000040634888
 
-XMLBeanFactory
+##### 7、spring对DAO的支持
+https://www.cnblogs.com/ELAIRS/p/12205312.html
 
-解释JDBC抽象和DAO模块
+##### 8、spring的Dao有什么用
+https://blog.csdn.net/qq_41608559/article/details/109184204
 
-解释对象\关系映射集成模块
+##### 9、spring Dao抛出的异常
+https://juejin.cn/post/6844903683306553357
 
-解释web模块
+##### 10、spring JDBC API中存在哪些类
 
-spring配置文件
-
-在spring框架中如何更有效地使用JDBC
-
-jdbctemplate
-
-spring如何处理线程并发问题
+##### 11、列举spring支持的事务管理类型
+https://blog.csdn.net/jiangshangchunjiezi/article/details/88869499
 
 
-### springMVC
-1、springmvc的核心组件
-2、springmvc的工作原理
-3、spring MVC框架中，HandlerAdapter的作用是什么？
+### 二、springMVC
+##### 1、springmvc的核心组件
+##### 2、springmvc的工作原理
+
 https://blog.csdn.net/baidu_38760069/article/details/96479412
 
-4、描述一下DispatcherServlet的工作流程
+##### 3、描述一下DispatcherServlet的工作流程
+https://www.jianshu.com/p/da62d3621769
+
 https://www.jianshu.com/p/0f981efdfbbd
 
-### 二、IOC
-1、谈谈对ioc的理解
+##### 4、spring MVC框架中，HandlerAdapter的作用是什么？
 
-ioc支持哪些功能
+https://www.jianshu.com/p/f04816ee2495
 
-依赖注入的基本原则
+https://www.jianshu.com/p/23ad68d8b421
 
-依赖注入有什么优势
+##### 5、介绍一下WebApplicationContext
+https://www.cnblogs.com/lifullmoon/p/14131802.html
 
-可以通过多少中方式完成依赖注入
+### 三、IOC
+一些优秀的文章：
+https://www.cnblogs.com/tanghaorong/p/13432008.html
+beanfactory相关类方法解析：https://blog.csdn.net/u011179993/article/details/51636742
+application context：
 
-区分构造函数注入和setter注入，哪种推荐使用
+##### 1、谈谈对ioc的理解
+https://www.cnblogs.com/Mr-Rocker/p/7721824.html
 
-spring中有多少种ios容器
+##### 2、ioc支持哪些功能
+https://developer.aliyun.com/ask/329856
 
-区分beanfactory和applicationcontext
+##### 3、依赖注入的基本原则
+##### 4、依赖注入有什么优势
+https://www.cnblogs.com/xiaonian8/p/13755061.html
 
-springioc的实现机制
+##### 5、可以通过多少中方式完成依赖注入
+##### 6、区分构造函数注入和setter注入，哪种推荐使用
+https://zhuanlan.zhihu.com/p/479983691
 
-2、什么是spring bean
+##### 7、spring中有多少种ioc容器
+https://developer.aliyun.com/ask/421289
 
-一个spring bean定义包含什么
+##### 8、springioc的实现机制
+https://www.cnblogs.com/jumpkin1122/p/11565282.html
 
-如何给spring容器提供配置元数据，spring提供了哪些配置方式
+##### 9、区分beanfactory和applicationcontext
+https://juejin.cn/post/7084791966503796744
 
-怎么样定义类的作用域
+##### 10、什么是spring bean
+https://www.cnblogs.com/east7/p/14390862.html
 
-spring配置文件包含了哪些信息
+##### 11、一个spring bean定义包含什么
+https://zhuanlan.zhihu.com/p/497989428
 
-spring支持几种bean scope
+##### 12、如何给spring容器提供配置元数据，spring提供了哪些配置方式
+https://developer.aliyun.com/article/998450
 
-spring基于xml注入bean的几种方式
+##### 13、bean的作用域
+https://www.cnblogs.com/tuyang1129/p/12871072.html
 
-4、bean的作用域
+##### 14、bean的生命周期
+https://juejin.cn/post/7155884227714613285
 
-5、bean的生命周期
+https://juejin.cn/post/7217693476494147641
 
-哪些是重要的bean生命周期方法？你能重载它们吗
+##### 15、哪些是重要的bean生命周期方法？你能重载它们吗
+https://www.jianshu.com/p/1d3f2a86a35b
 
-什么是spring的内部bean
+##### 16、什么是spring的内部bean
+https://www.jianshu.com/p/3ce23a7b096a
 
-spring框架中的单例bean是线程安全的吗
+##### 17、spring框架中的单例bean是线程安全的吗
+https://juejin.cn/post/6903865866849517581
 
-在spring中如何注入一个java集合
+##### 18、什么是bean的自动装配
+##### 19、自动装配有哪些方式
+##### 20、自动装配源码解析
+https://www.cnblogs.com/ludangxin/p/15092237.html
 
-可以在spring中注入一个null和一个空字符串吗
 
-什么是bean装配
+##### 21、在spring中如何注入一个java集合
+https://juejin.cn/post/7215825282039611452
 
-什么是bean的自动装配
-
-什么是spring装配
-
-自动装配有哪些方式
-
-自动装配有什么局限
-
-什么是基于java的spring注解配置？给一些注解的例子
-
-什么是基于注解的容器配置
-
-如何在spring中启动注解装配
-
-spring对DAO的支持
-
-spring的Dao有什么用
-
-spring Dao抛出的异常
-
-spring JDBC API中存在哪些类
-
-使用spring访问hibernate的方法有哪些
-
-列举spring支持的事务管理类型
-
-spring支持哪些orm框架
+##### 22、可以在spring中注入一个null和一个空字符串吗
+https://developer.aliyun.com/article/998477
 
 ### 注解
 @Component, @Controller, @Repository, @Service 有何区别？
@@ -183,6 +190,7 @@ aop有哪些实现方式
 
 
 ### 四、事务
+https://developer.aliyun.com/article/883480
 1、spring管理事务的方式有几种
 
 spring框架的事务管理有哪些有点
