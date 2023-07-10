@@ -193,12 +193,11 @@ https://juejin.cn/post/7076385205707079711
 
 ### 五、源码
 https://www.cnblogs.com/java-chen-hao/category/1587029.html
+https://www.cnblogs.com/java-chen-hao/category/1480619.html
 
 ApplicationContext 通常的实现是什么
 
 Bean 工厂和 Application contexts 有什么区别？
-
-一个 Spring 的应用看起来象什么？
 
 spring获取bean的流程
 
@@ -221,34 +220,32 @@ filesystemresource和classpathresource有何区别
 
 
 
-### springboot
+### 六、springboot
+##### 1、SpringBoot配置加载顺序
+https://juejin.cn/post/7219695336423735333
 
-https://www.cnblogs.com/java-chen-hao/category/1480619.html
+##### 2、springboot中的监视器是什么
+https://blog.csdn.net/qq_43555403/article/details/123611648
 
-1、SpringBoot配置加载顺序
+##### 3、如何重新加载springboot上的更改，而无需重新启动服务器
+https://developer.aliyun.com/ask/330236
 
-2、什么是javaconfig
+##### 4、如何在springboot中禁用actuator断点安全性
 
-3、springboot中的监视器是什么
 
-4、如何重新加载springboot上的更改，而无需重新启动服务器
+##### 5、如何实现springboot应用程序的安全性
+https://www.jdon.com/49653.html
 
-5、如何在springboot中禁用actuator断点安全性
+##### 6、什么是springbatch
+https://zhuanlan.zhihu.com/p/386888729
 
-如何在自定义端口上运行springboot应用程序
+https://juejin.cn/post/6844903670237102087
 
-什么是yaml
+##### 7、什么是crfs攻击
+https://www.cnblogs.com/54chensongxia/p/11693666.html
 
-如何实现springboot应用程序的安全性
-
-什么是springbatch
-
-如何使用springboot实现异常处理
-
-什么是crfs攻击
-
-如何监听所有springboot微服务
-
+##### 8、如何监听所有springboot微服务
+https://developer.aliyun.com/article/770500
 
 
 
