@@ -145,47 +145,37 @@ https://www.jianshu.com/p/21426f3eacb8
 
 
 ### 五、AOP
-1、谈谈对aop的理解
+##### 1、谈谈对aop的理解
+https://www.cnblogs.com/aduner/p/14656427.html
 
-解释aop模块
+##### 2、解释aop模块
+https://blog.csdn.net/weixin_45712075/article/details/117406715
 
-什么是aspectj
+##### 3、aop有哪些实现方式
+https://www.cnblogs.com/programb/p/13019569.html
 
-2、spring aop和aspectj aop的区别
+##### 4、基本概念
+https://www.cnblogs.com/aduner/p/14656427.html
 
-什么是引入
+##### 5、jdk动态代理
+https://juejin.cn/post/6874916520179269639
 
-什么是连接点
+##### 6、CGLIB代理
+https://developer.aliyun.com/article/844098
 
-什么是切点
+##### 7、什么是aspectj
 
-什么是通知？有哪些类型的通知？
+##### 8、spring aop和aspectj aop的区别
+https://juejin.cn/post/7042484603365359646
 
-什么是目标对象
+##### 9、有几种不同类型的自动代理
+https://www.cnblogs.com/shamo89/p/17501667.html
 
-什么是代理
-
-有几种不同类型的自动代理
-
-什么是编织？什么是织入应用的不通电
-
-解释基于XMLSCHema方式的切面实现
-
-解释基于注解的切面实现
-
-指出在 spring aop 中 concern 和 cross-cutting concern 的不同之处。
-
-在aop中，关注点和横切关注的区别是什么
-
-aop有哪些实现方式
-
-如何理解spring中的代理
+##### 10、在aop中，关注点和横切关注的区别是什么
+https://www.developers.pub/faq/1186785
 
 
-
-
-
-### 四、事务
+### 六、事务
 https://developer.aliyun.com/article/883480
 1、spring管理事务的方式有几种
 
