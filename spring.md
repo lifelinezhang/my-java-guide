@@ -65,8 +65,11 @@ https://www.cnblogs.com/lifullmoon/p/14131802.html
 
 ### 三、IOC
 一些优秀的文章：
+
 https://www.cnblogs.com/tanghaorong/p/13432008.html
+
 beanfactory相关类方法解析：https://blog.csdn.net/u011179993/article/details/51636742
+
 application context：
 
 ##### 1、谈谈对ioc的理解
@@ -182,7 +185,6 @@ https://developer.aliyun.com/article/883480
 spring框架的事务管理有哪些有点
 
 你更倾向于用哪种事务管理类型
-
 
 2、spring事务中哪几种事务传播行为
 
