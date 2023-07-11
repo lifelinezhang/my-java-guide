@@ -3,6 +3,8 @@ https://cloud.tencent.com/developer/article/2193997
 https://blog.csdn.net/tanliqing2010/article/details/81509539
 https://www.processon.com/view/link/6291db2f1efad45e083ae787
 
+mysql优化：https://www.zhihu.com/question/486575193
+
 ### 二、基础知识
 ##### 1、数据类型及区别
 https://blog.csdn.net/Hicodden/article/details/107394343
