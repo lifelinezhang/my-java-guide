@@ -195,28 +195,28 @@ https://juejin.cn/post/7076385205707079711
 https://www.cnblogs.com/java-chen-hao/category/1587029.html
 https://www.cnblogs.com/java-chen-hao/category/1480619.html
 
-ApplicationContext 通常的实现是什么
+##### 1、spring获取bean的流程
+https://www.jianshu.com/p/9ea61d204559
 
-Bean 工厂和 Application contexts 有什么区别？
+##### 2、spring的缓存
+https://juejin.cn/post/6939423997826170916
 
-spring获取bean的流程
+##### 3、什么是循环依赖
+##### 4、spring中的三种循环依赖
+##### 5、如何判断产生了循环依赖
+##### 6、spring如何解决循环依赖
+https://juejin.cn/post/7217653855445893177
 
-spring的缓存
+https://blog.csdn.net/qq_42093488/article/details/123809405
 
-为什么需要三级缓存
+##### 7、beanfactory和factory的不同
+https://juejin.cn/post/7036691963822735390
+
+https://juejin.cn/post/7223586612911833125
 
 
-什么是循环依赖
-spring中的三种循环依赖
-如何判断产生了循环依赖
-spring如何解决循环依赖
-
-beanfactory和factory的不同
-
-区分beanfactory和applicationcontext的不同
-
-filesystemresource和classpathresource有何区别
-
+##### 8、filesystemresource和classpathresource有何区别
+https://cloud.tencent.com/developer/article/1532993
 
 
 
