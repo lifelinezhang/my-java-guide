@@ -204,19 +204,99 @@ https://maimai.cn/article/detail?fid=1122653559&efid=jewbG8cL4Wikr2CJ3r_fAw
 ##### 21、xa事务与普通事务区别是什么
 https://zhuanlan.zhihu.com/p/372300181
 
-### 日志
-1、有哪些常见日志
-2、bin log作用是什么？
-3、redo log作用是什么？
-4、undo log作用是什么？
-5、Mysql日志是否实时写入磁盘？
-6、bin log刷盘机制是如何实现的？
-7、redo log刷盘机制是如何实现的？
-8、undo log刷盘机制是如何实现的？
-9、MySQL的binlog有有几种录入格式？分别有什么区别？
-10、Mysql集群同步时为什么使用binlog？优缺点是什么？
-11、innodb中有多少中日志
-12、profile的意义以及使用场景
+##### 22、profile的意义以及使用场景
+https://www.cnblogs.com/flzs/p/9974822.html
+
+### 七、日志
+##### 1、有哪些常见日志
+https://blog.csdn.net/lveex/article/details/118873638
+
+##### 2、innodb中有多少中日志
+https://juejin.cn/post/7037492319955714078
+
+##### 3、bin log作用是什么？
+##### 4、redo log作用是什么？
+##### 5、undo log作用是什么？
+##### 6、Mysql日志是否实时写入磁盘？
+##### 7、bin log刷盘机制是如何实现的？
+##### 8、redo log刷盘机制是如何实现的？
+##### 9、undo log刷盘机制是如何实现的？
+##### 10、MySQL的binlog有有几种录入格式？分别有什么区别？
+https://juejin.cn/post/7051484504120098829
+
+##### 11、Mysql集群同步时为什么使用binlog？优缺点是什么？
+https://blog.csdn.net/ywl470812087/article/details/128520959
+
+##### 12、如何在线正确清理 MySQL binlog？
+https://cloud.tencent.com/developer/article/1834951
+
+
+### 八、SQL
+##### 1、sql关键字的执行顺序
+https://zhuanlan.zhihu.com/p/77847158
+
+##### 2、in和exists的区别
+https://www.cnblogs.com/liyasong/p/sql_in_exists.html
+
+##### 3、union和union all的区别
+https://www.cnblogs.com/youpai/p/9473231.html
+
+##### 4、drop、delete和truncate的区别
+https://juejin.cn/post/7207423263344984124
+
+##### 5、一条sql是如何执行的
+https://cloud.tencent.com/developer/article/1972355
+
+##### 6、where子句如何优化
+https://blog.csdn.net/Soinice/article/details/84502292
+
+##### 7、超大分页或者深度分页如何处理
+https://zhuanlan.zhihu.com/p/279863859
+https://blog.csdn.net/thetimelyrain/article/details/110954818
+
+##### 8、注入漏洞
+##### 9、慢sql监控及查询、优化
+https://www.zhihu.com/question/440119508
+
+##### 10、误操作执行了一个 drop 库 SQL 语句，如何完整恢复？
+https://juejin.cn/post/7028955574242902023
+
+##### 11、子查询与join哪个效率高？为什么
+https://cloud.tencent.com/developer/article/2093300
+
+##### 12、join查询可以无限叠加吗？Mysql对join查询有什么限制吗？
+https://blog.csdn.net/qq_32447301/article/details/126718459
+
+##### 13、join 查询算法了解吗？
+https://juejin.cn/post/7014105037517357093
+
+##### 14、如何优化过多join查询关联？
+https://blog.csdn.net/qq_39408664/article/details/119208541
+
+##### 15、是否有过mysql调优经验？
+##### 16、开发中使用过哪些调优工具？
+https://developer.aliyun.com/article/756695
+
+##### 17、索引如何进行分析和调优？
+https://www.cnblogs.com/riches/p/14805926.html
+
+##### 18、mysql提示“不存在此列”的时候，是哪个节点爆出的？
+https://segmentfault.com/q/1010000020433331
+
+### 九、数据库设计
+1、可以使用MySQL直接存储文件吗
+2、如何存储ip地址
+3、长文本如何存储？
+4、大段文本如何设计表结构？
+5、大段文本查找时如何建立索引？
+6、为什么不使用字符串存储日期？
+7、如果需要使用时间戳 timestamp和int该如何选择？
+8、日期，时间如何存取？
+9、TIMESTAMP，DATETIME 的区别是什么？
+10、decimal与ﬂoat,double的区别是什么？
+11、浮点类型如何选型？为什么？
+12、预编译sql是什么？有什么好处
+13、超键、候选键、主键、外键分别是什么？
 
 
 ### 分库分表
@@ -255,60 +335,7 @@ https://zhuanlan.zhihu.com/p/372300181
 3、存储过程
 4、触发器
 
-### SQL
-1、sql关键字的执行顺序
-https://zhuanlan.zhihu.com/p/77847158
 
-2、in和exists的区别
-3、union和union all的区别
-4、drop、delete和truncate的区别
-
-5、一条sql是如何执行的
-https://cloud.tencent.com/developer/article/1972355
-
-8、where子句如何优化
-https://blog.csdn.net/Soinice/article/details/84502292
-
-9、超大分页或者深度分页如何处理
-https://zhuanlan.zhihu.com/p/279863859
-https://blog.csdn.net/thetimelyrain/article/details/110954818
-
-10、大表查询如何优化
-
-11、注入漏洞
-13、慢sql监控及查询、优化
-https://www.zhihu.com/question/440119508
-
-
-
-16、Binlog 工作模式有哪些？各什么特点，企业如何选择？
-17、误操作执行了一个 drop 库 SQL 语句，如何完整恢复？
-18、如何在线正确清理 MySQL binlog？
-19、mysqldump 备份使用了-A -B 参数，如何实现恢复单表？
-20、子查询与join哪个效率高？为什么
-21、join查询可以无限叠加吗？Mysql对join查询有什么限制吗？
-22、join 查询算法了解吗？
-23、如何优化过多join查询关联？
-24、是否有过mysql调优经验？
-25、开发中使用过哪些调优工具？
-26、索引如何进行分析和调优？
-27、mysql提示“不存在此列”的时候，是哪个节点爆出的？
-28、
-
-### 数据库设计
-1、可以使用MySQL直接存储文件吗
-2、如何存储ip地址
-3、长文本如何存储？
-4、大段文本如何设计表结构？
-5、大段文本查找时如何建立索引？
-6、为什么不使用字符串存储日期？
-7、如果需要使用时间戳 timestamp和int该如何选择？
-8、日期，时间如何存取？
-9、TIMESTAMP，DATETIME 的区别是什么？
-10、decimal与ﬂoat,double的区别是什么？
-11、浮点类型如何选型？为什么？
-12、预编译sql是什么？有什么好处
-13、超键、候选键、主键、外键分别是什么？
 
 ### 常见sql手写题
 
