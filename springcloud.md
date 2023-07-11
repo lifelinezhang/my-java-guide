@@ -41,6 +41,7 @@ gateway网关和nginx有什么不同
 
 ### 二、服务注册与发现
 1、cap理论
+https://cloud.tencent.com/developer/article/1860632
 
 nacos的功能特性有哪些
 
