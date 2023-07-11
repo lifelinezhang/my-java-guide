@@ -132,6 +132,11 @@ nacos客户端是够可以读取共享配置
 
 
 ### 熔断限流/服务降级
+
+https://blog.csdn.net/skyhaohao/article/details/120634032
+
+https://www.cnblogs.com/crazymakercircle/p/14285001.html
+
 1、你了解哪些限流算法
 2、sentinel默认的限流算法是什么
 sentinel中的阈值应用类型？
@@ -162,6 +167,36 @@ sentinel熔断处理逻辑中有哪些状态
 
 sentinel对服务调用进行熔断以后处于什么状态
 
+sentinel设置的熔断时长到期以后，sentinel的熔断会处于什么状态
+
+
+sentinel中的熔断逻辑恢复正常调用以后，会出现什么状态
+
+如何理解热点数据
+热点数据的限流规则是怎么样的
+热点数据中的特殊参数如何理解
+
+对于热点数据的访问出现限流以后的底层异常是什么
+
+如何理解sentinel中的系统规则
+
+sentinel中的常用系统规则有哪些
+
+sentinel系统保护规则被处罚以后底层会抛出什么异常
+
+如何理解sentinel中的授权规则
+
+sentinel的授权规则是如何设计的
+
+如何理解sentinel中的白名单
+
+如何理解sentinel中的黑名单
+
+sentinel如何识别白名单和黑名单
+
+授权规则中requestOriginParser类的作用是什么
+
+
 
 
 
@@ -170,6 +205,8 @@ sentinel对服务调用进行熔断以后处于什么状态
 ### 链路追踪
 
 ### 分布式定时任务
+
+
 
 ### 分布式事务
 
