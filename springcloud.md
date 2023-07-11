@@ -205,6 +205,21 @@ sentinel如何识别白名单和黑名单
 ### 链路追踪
 
 ### 分布式定时任务
+https://blog.csdn.net/weixin_37854829/article/details/115196099
+
+https://www.codetd.com/article/14796999#_147
+
+xxl-job原理
+xxl-job优缺点
+
+
+
+xxl-job故障转移
+xxl-job失败重试
+xxl-job路由策略
+xxl-job如何实现任务分片
+xxl-job集群部署如何保证只触发一次任务？定时器质性中断如何补偿
+
 
 
 
