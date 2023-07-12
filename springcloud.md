@@ -46,7 +46,7 @@ https://www.cnblogs.com/LBSer/p/4083131.html
 
 
 
-### 二、服务注册与发现
+### 三、服务注册与发现
 ##### 1、cap理论
 https://cloud.tencent.com/developer/article/1860632
 
@@ -92,25 +92,36 @@ https://blog.csdn.net/wangliangluang/article/details/127040023
 ##### 15、nacos的数据模型（领域模型）
 
 
-### 服务之间通信/负载均衡
+### 四、服务之间通信/负载均衡
 https://zhuanlan.zhihu.com/p/457256778
 
 https://segmentfault.com/a/1190000041228958
 
-1、什么是feign
-2、feign与openfeign的区别
-3、openfeign的启动原理
-4、openfeign的工作原理
-5、openfeign如何负载均衡
-6、openfeign如何处理错误
-7、openfeign如何支持文件上传
-8、如何开启日志增强
-openfeign如何传参
-超时如何处理
-如何替换默认的httpclient
-如何熔断降级
-如何通讯优化
-openfeign的生命周期
+##### 1、什么是feign
+##### 2、feign与openfeign的区别
+##### 3、openfeign的启动原理
+##### 4、openfeign的工作原理
+https://www.cnblogs.com/651434092qq/p/14260784.html
+
+##### 5、openfeign如何负载均衡
+https://developer.aliyun.com/article/775626
+
+##### 6、openfeign如何处理错误
+https://www.yisu.com/zixun/603222.html
+
+##### 7、openfeign如何支持文件上传
+https://chenyongjun.vip/articles/109
+
+##### 8、如何开启日志增强
+##### 9、openfeign如何传参
+https://www.cnblogs.com/nhdlb/p/12783453.html
+
+##### 10、超时如何处理
+##### 11、如何替换默认的httpclient
+##### 12、如何熔断降级
+##### 13、如何通讯优化
+##### 14、openfeign的生命周期
+https://juejin.cn/post/7019848193449918501
 
 ### 配置中心/分布式配置
 https://juejin.cn/post/6899663020805341191
