@@ -5,76 +5,91 @@
 
 微服务基础理论：https://developer.aliyun.com/article/8611
 
-### 路由网关
+### 二、路由网关
 https://juejin.cn/post/6882567936033652750
 https://www.cnblogs.com/javastack/p/15337244.html
 
-什么是网关？作用是什么
+##### 1、什么是网关？作用是什么
+https://juejin.cn/post/7187583802099630136
 
-网关如何实现路由功能
+##### 2、网关如何实现路由功能
+https://blog.csdn.net/sweatOtt/article/details/117710163
 
-什么是api网关
+##### 3、什么是api网关
+https://info.support.huawei.com/info-finder/encyclopedia/zh/API%E7%BD%91%E5%85%B3.html
 
-api网关和传统网关有什么不同
+https://www.zhihu.com/tardis/zm/art/144669763?source_id=1005
 
-如何保护api网关
+https://zhuanlan.zhihu.com/p/500587132
 
-如何监控和管理api网关
+https://developer.aliyun.com/article/847511
 
-如何配置api网关
+##### 4、springcloudgateway  优点
+https://juejin.cn/post/6854573221094637575
 
-如何扩展api网关的功能
+##### 5、springcloudgateway  处理流程
+https://www.jianshu.com/p/c40a757fad01
+https://juejin.cn/post/7044447160821088263
 
-网关的安全性如何提高
+##### 6、springcloudgateway  的路由实现
+https://juejin.cn/post/7038231474465669157
 
-gateway网关和nginx有什么不同
+##### 7、springcloudgateway  限流的实现
+https://cloud.tencent.com/developer/article/1509723
 
-1、springcloudgateway  优点
-1、springcloudgateway  处理流程
-1、springcloudgateway  的路由实现
-1、springcloudgateway  限流的实现
-1、springcloudgateway  鉴权的实现
-1、springcloudgateway  服务熔断的实现
+##### 8、常见的限流算法
+https://www.cnblogs.com/LBSer/p/4083131.html
+
+##### 9、springcloudgateway  鉴权的实现
+##### 10、springcloudgateway  服务熔断的实现
 
 
 
 
 ### 二、服务注册与发现
-1、cap理论
+##### 1、cap理论
 https://cloud.tencent.com/developer/article/1860632
 
-nacos的功能特性有哪些
+##### 2、nacos的功能特性有哪些
+https://nacos.io/zh-cn/docs/what-is-nacos.html
 
-如何理解nacos中的命名空间
+##### 3、nacos的服务发现方式有哪些
+https://segmentfault.com/a/1190000041376137
 
-1、nacos的服务注册是如何实现的
+##### 4、nacos的服务注册是如何实现的
+https://blog.csdn.net/Saintmm/article/details/121981184
+https://blog.csdn.net/Saintmm/article/details/122019300
+https://blog.csdn.net/Saintmm/article/details/122269468
 
-nacos的服务注册表结构是怎样的
+##### 5、nacos的服务注册表结构是怎样的
+https://www.cnblogs.com/wekenyblog/p/17517450.html
 
-nacos如何避免并发读写冲突问题
+##### 6、nacos如何避免并发读写冲突问题
+https://www.cnblogs.com/wekenyblog/p/17517864.html
 
-临时实例与永久实例
+##### 7、临时实例与永久实例
+https://www.cnblogs.com/l1pe1/p/16727244.html
 
-1、nacos健康检测机制
+##### 8、nacos健康检测机制
 https://juejin.cn/post/7222656390548340793
 
-nacos中的保护阈值的作用是什么
+##### 9、nacos中的保护阈值的作用是什么
+https://juejin.cn/post/7064380271461662756
 
-nacos的就近访问是什么意思
+##### 10、nacos的就近访问是什么意思
+https://nacos.io/en-us/blog/cmdb.html
 
-3、nacos的负载均衡是如何实现的
+##### 11、nacos的负载均衡是如何实现的
+https://developer.aliyun.com/article/845183
 
-4、nacos的故障恢复是如何实现的
+##### 12、nacos的故障恢复是如何实现的
 
-5、nacos的动态配置是如何实现的
+##### 13、nacos的动态配置是如何实现的
+https://blog.csdn.net/wangliangluang/article/details/127040023
 
-6、nacos的服务发现方式有哪些
+##### 14、nacos的架构
 
-7、nacos的优缺点有哪些
-
-nacos的架构
-
-nacos的数据模型（领域模型）
+##### 15、nacos的数据模型（领域模型）
 
 
 ### 服务之间通信/负载均衡
