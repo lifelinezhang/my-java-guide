@@ -123,7 +123,7 @@ https://www.cnblogs.com/nhdlb/p/12783453.html
 ##### 14、openfeign的生命周期
 https://juejin.cn/post/7019848193449918501
 
-### 配置中心/分布式配置
+### 五、配置中心/分布式配置
 https://juejin.cn/post/6899663020805341191
 
 https://blog.csdn.net/Skyhaohao/article/details/120630387
@@ -158,97 +158,108 @@ nacos客户端是够可以读取共享配置
 
 
 
-### 熔断限流/服务降级
+### 六、熔断限流/服务降级
 
 https://blog.csdn.net/skyhaohao/article/details/120634032
 
 https://www.cnblogs.com/crazymakercircle/p/14285001.html
 
-1、你了解哪些限流算法
-2、sentinel默认的限流算法是什么
-sentinel中的阈值应用类型？
-sentinel限流规则中默认有哪些限流模式
+##### 1、你了解哪些限流算法
+https://www.cnblogs.com/liqiangchn/p/14253924.html
 
-sentinel的限流效果有哪些
+##### 2、sentinel默认的限流算法是什么
+##### 3、sentinel中的阈值应用类型？
+https://www.jianshu.com/p/2f96a526d17f
 
-sentinel为什么可以对我们的业务进行限流，原理是什么
+##### 4、sentinel限流规则中默认有哪些限流模式
+https://blog.csdn.net/QRLYLETITBE/article/details/125834577
 
-什么是降级熔断
+##### 5、sentinel的限流效果有哪些
+https://www.cnblogs.com/linjiqin/p/15369129.html
 
-为什么要进行降级熔断？
+##### 6、sentinel为什么可以对我们的业务进行限流，原理是什么
+https://www.cnblogs.com/wuzhenzhao/p/11453649.html
 
-sentinel中限流、降级的异常父类是谁
+##### 7、什么是降级熔断
 
-sentinel出现降级熔断时、系统底层抛出的异常是谁
+##### 8、为什么要进行降级熔断？
+https://www.cnblogs.com/xiaowenshu/p/11649439.html
 
-sentinel的异常处理接口是谁
-sentinel中异常处理接口下默认的实现类为？
+##### 9、sentinel中限流、降级的异常父类是谁
 
-加入sentinel中默认的异常处理规则不满足我们的需求怎么办？
+##### 10、sentinel出现降级熔断时、系统底层抛出的异常是谁
 
-我们如何自己定义sentinel中异常处理呢？
+##### 11、sentinel的异常处理接口是谁
+##### 12、sentinel中异常处理接口下默认的实现类为？
 
-sentinel降级熔断策略有哪些
+##### 13、加入sentinel中默认的异常处理规则不满足我们的需求怎么办？
 
-sentinel熔断处理逻辑中有哪些状态
+##### 14、我们如何自己定义sentinel中异常处理呢？
 
-sentinel对服务调用进行熔断以后处于什么状态
+##### 15、sentinel降级熔断策略有哪些
+https://www.cnblogs.com/linjiqin/p/15374998.html
 
-sentinel设置的熔断时长到期以后，sentinel的熔断会处于什么状态
+##### 16、sentinel熔断处理逻辑中有哪些状态
 
+##### 17、sentinel对服务调用进行熔断以后处于什么状态
 
-sentinel中的熔断逻辑恢复正常调用以后，会出现什么状态
-
-如何理解热点数据
-热点数据的限流规则是怎么样的
-热点数据中的特殊参数如何理解
-
-对于热点数据的访问出现限流以后的底层异常是什么
-
-如何理解sentinel中的系统规则
-
-sentinel中的常用系统规则有哪些
-
-sentinel系统保护规则被处罚以后底层会抛出什么异常
-
-如何理解sentinel中的授权规则
-
-sentinel的授权规则是如何设计的
-
-如何理解sentinel中的白名单
-
-如何理解sentinel中的黑名单
-
-sentinel如何识别白名单和黑名单
-
-授权规则中requestOriginParser类的作用是什么
+##### 18、sentinel设置的熔断时长到期以后，sentinel的熔断会处于什么状态
 
 
+##### 19、sentinel中的熔断逻辑恢复正常调用以后，会出现什么状态
+
+##### 20、如何理解热点数据
+##### 21、热点数据的限流规则是怎么样的
+##### 22、热点数据中的特殊参数如何理解
+
+##### 23、对于热点数据的访问出现限流以后的底层异常是什么
+
+##### 24、如何理解sentinel中的系统规则
+
+##### 25、sentinel中的常用系统规则有哪些
+
+##### 26、sentinel系统保护规则被处罚以后底层会抛出什么异常
+
+##### 27、如何理解sentinel中的授权规则
+
+##### 28、sentinel的授权规则是如何设计的
+
+##### 29、如何理解sentinel中的白名单
+
+##### 30、如何理解sentinel中的黑名单
+
+##### 31、sentinel如何识别白名单和黑名单
+
+##### 32、授权规则中requestOriginParser类的作用是什么
+
+
+### 七、链路追踪
 
 
 
-
-
-### 链路追踪
-
-### 分布式定时任务
+### 八、分布式定时任务
 https://blog.csdn.net/weixin_37854829/article/details/115196099
 
 https://www.codetd.com/article/14796999#_147
 
-xxl-job原理
-xxl-job优缺点
+##### 1、xxl-job原理
+https://blog.csdn.net/weixin_38004638/article/details/116086122
+
+##### 2、xxl-job优缺点
+
+##### 3、xxl-job故障转移
+##### 4、xxl-job失败重试
+
+##### 5、xxl-job路由策略
+https://juejin.cn/post/7047149322475044877
+
+##### 6、xxl-job如何实现任务分片
+https://www.cnblogs.com/mazhuang/p/14903280.html
+
+##### 7、xxl-job集群部署如何保证只触发一次任务？定时器质性中断如何补偿
+https://blog.csdn.net/xiaopeng_code/article/details/119193317
 
 
 
-xxl-job故障转移
-xxl-job失败重试
-xxl-job路由策略
-xxl-job如何实现任务分片
-xxl-job集群部署如何保证只触发一次任务？定时器质性中断如何补偿
-
-
-
-
-### 分布式事务
+### 九、分布式事务
 
