@@ -114,8 +114,8 @@ https://segmentfault.com/a/1190000021292121
 https://blog.csdn.net/yldmkx/article/details/116676428
 
 ### 二、集合
-
 8、Collection和Collections有什么区别
+https://juejin.cn/post/7238310754498707511
 
 9、HashMap和Hashtable有什么区别
 
@@ -131,4 +131,48 @@ https://blog.csdn.net/yldmkx/article/details/116676428
 
 15、哪些集合类是线程安全的
 
+### 三、HashMap
+1、HashMap有哪些特性？
 
+2、HashMap的底层实现原理
+
+3、HashMap中put方法是如何实现的
+
+4、HashMap的扩容机制
+
+5、HashMap的get是如何实现的
+
+6、HashMap中hash函数是怎么实现的？还有哪些hash函数的实现方式？
+
+7、为什么不直接将key作为哈希值而是与高16位做异或运算
+
+8、为什么是16？为什么必须是2的幂？如果输入值不是2的幂比如10会怎么样？
+
+9、谈一下当两个对象的hashCode相等时会怎么样？
+
+10、如果两个键的hashcode相同，你如何获取值对象？
+
+11、如果HashMap的大小超过了负载因子(load factor)定义的容量，怎么办
+
+12、HashMap和HashTable的区别
+
+13、请解释一下HashMap的参数loadFactor，它的作用是什么？
+
+14、传统hashMap的缺点(为什么引入红黑树？)：
+
+15、平时在使用HashMap时一般使用什么类型的元素作为Key？
+
+16、拉链法导致的链表过深问题为什么不用二叉查找树代替，而选择红黑树？为什么不一直使用红黑树？
+
+17、Java 中的另一个线程安全的与 HashMap 极其类似的类是什么？同样是线程安全，它与 HashTable 在线程同步上有什么不同？
+
+
+18、为什么 ConcurrentHashMap 比 HashTable 效率要高？
+
+19、针对 ConcurrentHashMap 锁机制具体分析（JDK 1.7 VS JDK 1.8）
+
+20、ConcurrentHashMap 在 JDK 1.8 中，为什么要使用内置锁 synchronized 来代替重入锁 ReentrantLock？
+
+21、ConcurrentHashMap 简单介绍
+
+22、ConcurrentHashMap 的并发度是什么？
