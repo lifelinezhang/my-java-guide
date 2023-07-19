@@ -3,6 +3,7 @@
 /target/classes/.idea/compiler.xml
 /target/classes/.idea/encodings.xml
 /target/classes/.idea/jarRepositories.xml
+/target/classes/*
 /target/classes/*.md
 /target/classes/thread/RunnableThread.class
 /target/classes/thread/callable/ThreadNew.class
@@ -30,6 +31,7 @@
 /target/classes/target/classes/target/classes/target/classes/综述.md
 /target/classes/target/classes/target/classes/综述.md
 /target/classes/target/classes/综述.md
+/target/classes/target/classes/*
 /target/classes/netty/ClientMessageHandler.class
 /target/classes/target/classes/docker.md
 /target/classes/docker.md
