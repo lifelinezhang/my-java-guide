@@ -262,4 +262,43 @@ https://blog.csdn.net/xiaopeng_code/article/details/119193317
 
 
 ### 九、分布式事务
+https://www.cnblogs.com/crazymakercircle/p/14375424.html
+
+1、什么是分布式事务
+
+2、cap与base
+
+3、分布式事务分类：柔性事务与刚性事务
+
+4、
+
+2、分布式事务有哪些解决方案
+
+3、你们是如何处理的
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
