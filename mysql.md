@@ -30,7 +30,9 @@ https://blog.csdn.net/horses/article/details/106529341
 ##### 3、什么是2-3树 2-3-4树
 ##### 4、平衡二叉树、红黑树、B树、B+树的区别
 https://blog.csdn.net/qq_38163244/article/details/109704712
+
 https://www.cnblogs.com/henuliulei/p/15114440.html
+
 https://blog.csdn.net/chen_zhang_yu/article/details/52415077
 
 ### 四、存储引擎
@@ -39,6 +41,7 @@ https://zhuanlan.zhihu.com/p/394998355
 
 ##### 2、MyISM和Innodb
 https://zhuanlan.zhihu.com/p/75165526
+
 https://blog.csdn.net/catch_exception/article/details/130035662
 
 ##### 3、Innodb的特性
@@ -52,12 +55,19 @@ https://blog.csdn.net/m0_45406092/article/details/111940017
 ##### 7、页由哪些数据组成
 ##### 8、页插入记录的过程
 https://juejin.cn/post/7007421609900245000
+
 https://developer.aliyun.com/article/743573
+
 https://developer.aliyun.com/article/743582
+
 https://developer.aliyun.com/article/743590
+
 https://blog.csdn.net/gb4215287/article/details/113185778
+
 https://developer.aliyun.com/article/743882
+
 https://juejin.cn/post/6974225353371975693
+
 https://blog.csdn.net/lvqinglou/article/details/12022308
 
 ##### 9、缓存与缓冲区
