@@ -53,6 +53,55 @@ https://blog.csdn.net/qq_37705280/article/details/117777680（双重检验锁的
 ##### 13、被引用的对象就一定能存活吗？
 
 
+### JVM调优
+多读几遍：https://developer.aliyun.com/article/928676
+
+##### 1、整体思路：
+jvm调优首先要判断有没有问题？这个要看哪些数据特征？
+
+其次哪个特征异常的话通常可能会是什么问题？
+
+怎么进行问题的排除，确定到底是哪个问题？
+
+如何调整进行解决？
 
 
+
+##### 2、jstack案例
+https://blog.csdn.net/CoreyXuu/article/details/110624151
+
+https://www.cnblogs.com/jimoliunian/p/12975201.html
+
+
+##### 3、cpu负载过高：
+可能的原因：
+- 频繁GC
+- 死循环、死锁、线程阻塞、io wait等等
+
+死循环和死锁可以通过jstack来查看占用cpu最高的业务线程的堆栈来定位
+
+https://zhuanlan.zhihu.com/p/140742113
+
+
+##### 4、jvm内存指标：
+内存溢出排查思路：
+项目启动的时候要设置内存溢出异常时的日志打印，然后发生溢出的时候导出dump文件进行分析
+
+https://cloud.tencent.com/developer/article/2000708
+
+内存泄漏：
+观察gc的情况总会有一些内存回收不掉
+
+https://www.jianshu.com/p/37f7cca2ce5d
+
+堆外内存：
+
+https://juejin.cn/post/7255634554987020343
+
+反射：
+
+https://heapdump.cn/article/54786
+
+##### 5、生产环境下jvm启动参数：
+https://cloud.tencent.com/developer/article/1903501
 
