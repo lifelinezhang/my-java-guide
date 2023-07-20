@@ -5,6 +5,8 @@ https://www.processon.com/view/link/6291db2f1efad45e083ae787
 
 mysql优化：https://www.zhihu.com/question/486575193
 
+myssql在生产环境下的配置：https://www.cnblogs.com/architectforest/p/12491984.html
+
 ### 二、基础知识
 ##### 1、数据类型及区别
 https://blog.csdn.net/Hicodden/article/details/107394343
