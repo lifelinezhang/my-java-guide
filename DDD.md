@@ -8,3 +8,9 @@ https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&chksm=83953cc4b4e2b5d2bd4426e0
 
 ### 二、MapStruct
 https://juejin.cn/post/7140149801991012365
+
+
+
+### 三、聚合
+https://zhuanlan.zhihu.com/p/359672528
+https://www.cnblogs.com/netfocus/p/3307971.html
