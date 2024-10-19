@@ -100,7 +100,12 @@ https://blog.csdn.net/cnds123321/article/details/113385921
 
 ##### 38、String str = "aaa";和String str = new String("aaa")一样吗？new String("aaa")创建了几个字符串对象
 https://blog.csdn.net/weixin_42412843/article/details/124450055
+https://javabetter.cn/string/intern.html
 
+intern方法：
+第一，使用双引号声明的字符串对象会保存在字符串常量池中。
+第二，使用 new 关键字创建的字符串对象会先从字符串常量池中找，如果没找到就创建一个，然后再在堆中创建字符串对象；如果找到了，就直接在堆中创建字符串对象。
+第三，执行 String.intern() 方法的时候，如果对象在堆中已经创建了，字符串常量池中就不需要再创建新的对象了，而是直接保存堆中对象的引用
 ##### 39、什么是泛型中的限定通配符和非限定通配符
 https://www.cnblogs.com/toSeeMyDream/p/6434696.html
 

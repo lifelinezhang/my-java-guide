@@ -1,22 +1,36 @@
 ### JVM内存结构
 ##### 1、jvm内存区域划分
 ##### 2、OOM
+https://zhuanlan.zhihu.com/p/43279292
+https://cloud.tencent.com/developer/article/1810426
 ##### 3、内存泄漏
+https://blog.csdn.net/wuhuayangs/article/details/122594327
+一个对象还在但是他的引用却不在了，会导致内存泄漏
 ##### 4、深拷贝和浅拷贝
+https://blog.csdn.net/weixin_44772566/article/details/136515491
 ##### 5、jvm如何分配直接内存，new对象如何不分配在堆而分配在栈上
+https://www.cnblogs.com/myseries/p/12884249.html
 ##### 6、常量池
+https://cloud.tencent.com/developer/article/1810426
+https://tech.meituan.com/2014/03/06/in-depth-understanding-string-intern.html
 ##### 7、为什么要把堆和栈区分出来？栈不是也可以存储数据吗？
+https://blog.csdn.net/NZC2237/article/details/135159926
 ##### 8、为什么不把基本类型放堆中？
+https://zhuanlan.zhihu.com/p/442259646
 ##### 9、对象在内存中是如何布局的？（这一块跟多线程有关系）
+https://blog.csdn.net/Alphr/article/details/106295538
+https://www.cnblogs.com/javazhiyin/p/14023183.html
 https://www.toutiao.com/article/6934342274692268556/?group_id=6934342274692268556（对象的内存布局）
-https://blog.csdn.net/weixin_43767015/article/details/105204649（对象的内存布局）
 ##### 10、java程序是如何执行的
+https://blog.csdn.net/xiaoliangtx/article/details/118675229
 ##### 11、说一下堆内存中对象的分配的基本策略
+https://blog.csdn.net/u011069294/article/details/107325136
 ##### 12、在一个静态方法内调用一个非静态成员为什么是非法的
 
 
 
 ### JMM（java内存模型，通常与多线程、并发相关）
+https://javaguide.cn/java/concurrent/jmm.html
 ##### 1、核心是原子性、可见性、有序性
 ##### 2、指令重排：有哪些？底线是什么？怎么保证？
 ##### 3、happends-before
