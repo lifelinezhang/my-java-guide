@@ -35,21 +35,25 @@ https://javaguide.cn/java/concurrent/jmm.html
 ##### 2、指令重排：有哪些？底线是什么？怎么保证？
 ##### 3、happends-before
 ##### 4、内存屏障分类
+https://www.cnblogs.com/ITPower/p/13580691.html
+
 ##### 5、volatile：保证可见性和有序性（禁止指令重排）
 ##### 6、synchronized：可见性通过清除工作内存实现；原子性
 ##### 7、final（this逸出，对象的安全发布，内存语义）
-https://blog.csdn.net/gd_yuzhe/article/details/119031820（JMM综述）
 https://blog.csdn.net/wyttRain/article/details/114520547 （内存屏障）
-https://blog.csdn.net/qq_37705280/article/details/117777680（双重检验锁的解析）
+https://blog.csdn.net/weixin_44730681/article/details/113782501
 ##### 8、对象分配内存是否线程安全？
+https://blog.csdn.net/wojiao228925661/article/details/100136330
 ##### 9、当一个线程进入某个对象的一个synchronized的实例方法后，其它线程是否可进入此对象的其它方法？
+https://cloud.tencent.com/developer/article/1540166
 
 ### 类加载机制
 ##### 1、类加载过程
+https://javaguide.cn/java/jvm/class-loading-process.html
 ##### 2、双亲委派模型
 ##### 3、classload机制详解
 ##### 4、类加载为什么要使用双亲委派模式，有没有什么场景是打破了这个模式？
-
+https://javaguide.cn/java/jvm/classloader.html
 
 ### 垃圾收集
 ##### 1、如何判断对象是否可以被回收
@@ -65,7 +69,7 @@ https://blog.csdn.net/qq_37705280/article/details/117777680（双重检验锁的
 ##### 11、分析System.GC方法
 ##### 12、GCROOT指的是哪些东西
 ##### 13、被引用的对象就一定能存活吗？
-
+https://javaguide.cn/java/jvm/jvm-garbage-collection.html
 
 ### JVM调优
 多读几遍：https://developer.aliyun.com/article/928676
