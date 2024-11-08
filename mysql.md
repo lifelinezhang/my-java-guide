@@ -9,7 +9,6 @@ myssql在生产环境下的配置：https://www.cnblogs.com/architectforest/p/12
 
 ### 二、基础知识
 ##### 1、数据类型及区别
-https://blog.csdn.net/Hicodden/article/details/107394343
 https://zhuanlan.zhihu.com/p/352503879
 https://www.cnblogs.com/yoyowin/p/15265418.html
 
@@ -31,7 +30,6 @@ https://blog.csdn.net/horses/article/details/106529341
 ##### 2、B+树和二叉查找树的区别
 ##### 3、什么是2-3树 2-3-4树
 ##### 4、平衡二叉树、红黑树、B树、B+树的区别
-https://blog.csdn.net/qq_38163244/article/details/109704712
 
 https://www.cnblogs.com/henuliulei/p/15114440.html
 
@@ -70,10 +68,8 @@ https://developer.aliyun.com/article/743882
 
 https://juejin.cn/post/6974225353371975693
 
-https://blog.csdn.net/lvqinglou/article/details/12022308
 
 ##### 9、缓存与缓冲区
-https://blog.csdn.net/Hpsyche/article/details/104460944
 
 ##### 10、Innodb有哪些线程
 https://juejin.cn/post/6886263075169501192
@@ -220,6 +216,7 @@ https://zhuanlan.zhihu.com/p/372300181
 https://www.cnblogs.com/flzs/p/9974822.html
 
 ### 七、日志
+https://www.cnblogs.com/xiaolincoding/p/16396502.html
 ##### 1、有哪些常见日志
 https://blog.csdn.net/lveex/article/details/118873638
 
